@@ -6,7 +6,7 @@ const ComparedDistricts = ({comparedDistricts}) => {
   console.log(comparedDistricts)
 
   const displaySelectedCards = comparedDistricts.map(district => <Card {...district} key={district.location}/>)
-
+  console.log(this);
   return (
     <div>
       {displaySelectedCards}
