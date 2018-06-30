@@ -18,88 +18,77 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <ComparedDistricts
-          addCardToCompare={[Function]}
-          comparedDistricts={Array []}
-          removeCardFromCompare={[Function]}
-/>,
-        <Search
-          filterDistricts={[Function]}
-/>,
-        <CardContainer
-          addCardToCompare={[Function]}
-          districts={Array []}
-          removeCardFromCompare={[Function]}
-/>,
+        <header
+          className="header"
+>
+          <h1>
+                    HeadCount 2.0
+          </h1>
+</header>,
+        <section
+          className="compare-container"
+>
+          <ComparedDistricts
+                    addCardToCompare={[Function]}
+                    comparedDistricts={Array []}
+                    removeCardFromCompare={[Function]}
+          />
+</section>,
+        <aside
+          className="sidebar"
+>
+          <Search
+                    filterDistricts={[Function]}
+          />
+          <CardContainer
+                    addCardToCompare={[Function]}
+                    districts={Array []}
+                    removeCardFromCompare={[Function]}
+          />
+</aside>,
       ],
+      "className": "grid-container",
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
+        "nodeType": "host",
         "props": Object {
-          "addCardToCompare": [Function],
-          "comparedDistricts": Array [],
-          "removeCardFromCompare": [Function],
+          "children": <h1>
+            HeadCount 2.0
+</h1>,
+          "className": "header",
         },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "HeadCount 2.0",
+          },
+          "ref": null,
+          "rendered": "HeadCount 2.0",
+          "type": "h1",
+        },
+        "type": "header",
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "host",
         "props": Object {
-          "filterDistricts": [Function],
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "addCardToCompare": [Function],
-          "districts": Array [],
-          "removeCardFromCompare": [Function],
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": "main",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <ComparedDistricts
+          "children": <ComparedDistricts
             addCardToCompare={[Function]}
             comparedDistricts={Array []}
             removeCardFromCompare={[Function]}
 />,
-          <Search
-            filterDistricts={[Function]}
-/>,
-          <CardContainer
-            addCardToCompare={[Function]}
-            districts={Array []}
-            removeCardFromCompare={[Function]}
-/>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
+          "className": "compare-container",
+        },
+        "ref": null,
+        "rendered": Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
@@ -112,29 +101,194 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Search
+              filterDistricts={[Function]}
+/>,
+            <CardContainer
+              addCardToCompare={[Function]}
+              districts={Array []}
+              removeCardFromCompare={[Function]}
+/>,
+          ],
+          "className": "sidebar",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "filterDistricts": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "addCardToCompare": [Function],
+              "districts": Array [],
+              "removeCardFromCompare": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "aside",
+      },
+    ],
+    "type": "main",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <header
+            className="header"
+>
+            <h1>
+                        HeadCount 2.0
+            </h1>
+</header>,
+          <section
+            className="compare-container"
+>
+            <ComparedDistricts
+                        addCardToCompare={[Function]}
+                        comparedDistricts={Array []}
+                        removeCardFromCompare={[Function]}
+            />
+</section>,
+          <aside
+            className="sidebar"
+>
+            <Search
+                        filterDistricts={[Function]}
+            />
+            <CardContainer
+                        addCardToCompare={[Function]}
+                        districts={Array []}
+                        removeCardFromCompare={[Function]}
+            />
+</aside>,
+        ],
+        "className": "grid-container",
+      },
+      "ref": null,
+      "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "host",
           "props": Object {
-            "filterDistricts": [Function],
+            "children": <h1>
+              HeadCount 2.0
+</h1>,
+            "className": "header",
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "HeadCount 2.0",
+            },
+            "ref": null,
+            "rendered": "HeadCount 2.0",
+            "type": "h1",
+          },
+          "type": "header",
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "host",
           "props": Object {
-            "addCardToCompare": [Function],
-            "districts": Array [],
-            "removeCardFromCompare": [Function],
+            "children": <ComparedDistricts
+              addCardToCompare={[Function]}
+              comparedDistricts={Array []}
+              removeCardFromCompare={[Function]}
+/>,
+            "className": "compare-container",
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "addCardToCompare": [Function],
+              "comparedDistricts": Array [],
+              "removeCardFromCompare": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Search
+                filterDistricts={[Function]}
+/>,
+              <CardContainer
+                addCardToCompare={[Function]}
+                districts={Array []}
+                removeCardFromCompare={[Function]}
+/>,
+            ],
+            "className": "sidebar",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "filterDistricts": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "addCardToCompare": [Function],
+                "districts": Array [],
+                "removeCardFromCompare": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "aside",
         },
       ],
       "type": "main",
@@ -169,88 +323,77 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <ComparedDistricts
-          addCardToCompare={[Function]}
-          comparedDistricts={Array []}
-          removeCardFromCompare={[Function]}
-/>,
-        <Search
-          filterDistricts={[Function]}
-/>,
-        <CardContainer
-          addCardToCompare={[Function]}
-          districts={Array []}
-          removeCardFromCompare={[Function]}
-/>,
+        <header
+          className="header"
+>
+          <h1>
+                    HeadCount 2.0
+          </h1>
+</header>,
+        <section
+          className="compare-container"
+>
+          <ComparedDistricts
+                    addCardToCompare={[Function]}
+                    comparedDistricts={Array []}
+                    removeCardFromCompare={[Function]}
+          />
+</section>,
+        <aside
+          className="sidebar"
+>
+          <Search
+                    filterDistricts={[Function]}
+          />
+          <CardContainer
+                    addCardToCompare={[Function]}
+                    districts={Array []}
+                    removeCardFromCompare={[Function]}
+          />
+</aside>,
       ],
+      "className": "grid-container",
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
+        "nodeType": "host",
         "props": Object {
-          "addCardToCompare": [Function],
-          "comparedDistricts": Array [],
-          "removeCardFromCompare": [Function],
+          "children": <h1>
+            HeadCount 2.0
+</h1>,
+          "className": "header",
         },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "HeadCount 2.0",
+          },
+          "ref": null,
+          "rendered": "HeadCount 2.0",
+          "type": "h1",
+        },
+        "type": "header",
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "host",
         "props": Object {
-          "filterDistricts": [Function],
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "addCardToCompare": [Function],
-          "districts": Array [],
-          "removeCardFromCompare": [Function],
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": "main",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <ComparedDistricts
+          "children": <ComparedDistricts
             addCardToCompare={[Function]}
             comparedDistricts={Array []}
             removeCardFromCompare={[Function]}
 />,
-          <Search
-            filterDistricts={[Function]}
-/>,
-          <CardContainer
-            addCardToCompare={[Function]}
-            districts={Array []}
-            removeCardFromCompare={[Function]}
-/>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
+          "className": "compare-container",
+        },
+        "ref": null,
+        "rendered": Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
@@ -263,29 +406,194 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Search
+              filterDistricts={[Function]}
+/>,
+            <CardContainer
+              addCardToCompare={[Function]}
+              districts={Array []}
+              removeCardFromCompare={[Function]}
+/>,
+          ],
+          "className": "sidebar",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "filterDistricts": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "addCardToCompare": [Function],
+              "districts": Array [],
+              "removeCardFromCompare": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "aside",
+      },
+    ],
+    "type": "main",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <header
+            className="header"
+>
+            <h1>
+                        HeadCount 2.0
+            </h1>
+</header>,
+          <section
+            className="compare-container"
+>
+            <ComparedDistricts
+                        addCardToCompare={[Function]}
+                        comparedDistricts={Array []}
+                        removeCardFromCompare={[Function]}
+            />
+</section>,
+          <aside
+            className="sidebar"
+>
+            <Search
+                        filterDistricts={[Function]}
+            />
+            <CardContainer
+                        addCardToCompare={[Function]}
+                        districts={Array []}
+                        removeCardFromCompare={[Function]}
+            />
+</aside>,
+        ],
+        "className": "grid-container",
+      },
+      "ref": null,
+      "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "host",
           "props": Object {
-            "filterDistricts": [Function],
+            "children": <h1>
+              HeadCount 2.0
+</h1>,
+            "className": "header",
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "HeadCount 2.0",
+            },
+            "ref": null,
+            "rendered": "HeadCount 2.0",
+            "type": "h1",
+          },
+          "type": "header",
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "host",
           "props": Object {
-            "addCardToCompare": [Function],
-            "districts": Array [],
-            "removeCardFromCompare": [Function],
+            "children": <ComparedDistricts
+              addCardToCompare={[Function]}
+              comparedDistricts={Array []}
+              removeCardFromCompare={[Function]}
+/>,
+            "className": "compare-container",
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "addCardToCompare": [Function],
+              "comparedDistricts": Array [],
+              "removeCardFromCompare": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Search
+                filterDistricts={[Function]}
+/>,
+              <CardContainer
+                addCardToCompare={[Function]}
+                districts={Array []}
+                removeCardFromCompare={[Function]}
+/>,
+            ],
+            "className": "sidebar",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "filterDistricts": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "addCardToCompare": [Function],
+                "districts": Array [],
+                "removeCardFromCompare": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "aside",
         },
       ],
       "type": "main",
@@ -320,88 +628,77 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <ComparedDistricts
-          addCardToCompare={[Function]}
-          comparedDistricts={Array []}
-          removeCardFromCompare={[Function]}
-/>,
-        <Search
-          filterDistricts={[Function]}
-/>,
-        <CardContainer
-          addCardToCompare={[Function]}
-          districts={Array []}
-          removeCardFromCompare={[Function]}
-/>,
+        <header
+          className="header"
+>
+          <h1>
+                    HeadCount 2.0
+          </h1>
+</header>,
+        <section
+          className="compare-container"
+>
+          <ComparedDistricts
+                    addCardToCompare={[Function]}
+                    comparedDistricts={Array []}
+                    removeCardFromCompare={[Function]}
+          />
+</section>,
+        <aside
+          className="sidebar"
+>
+          <Search
+                    filterDistricts={[Function]}
+          />
+          <CardContainer
+                    addCardToCompare={[Function]}
+                    districts={Array []}
+                    removeCardFromCompare={[Function]}
+          />
+</aside>,
       ],
+      "className": "grid-container",
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
+        "nodeType": "host",
         "props": Object {
-          "addCardToCompare": [Function],
-          "comparedDistricts": Array [],
-          "removeCardFromCompare": [Function],
+          "children": <h1>
+            HeadCount 2.0
+</h1>,
+          "className": "header",
         },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "HeadCount 2.0",
+          },
+          "ref": null,
+          "rendered": "HeadCount 2.0",
+          "type": "h1",
+        },
+        "type": "header",
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "host",
         "props": Object {
-          "filterDistricts": [Function],
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "addCardToCompare": [Function],
-          "districts": Array [],
-          "removeCardFromCompare": [Function],
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": "main",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <ComparedDistricts
+          "children": <ComparedDistricts
             addCardToCompare={[Function]}
             comparedDistricts={Array []}
             removeCardFromCompare={[Function]}
 />,
-          <Search
-            filterDistricts={[Function]}
-/>,
-          <CardContainer
-            addCardToCompare={[Function]}
-            districts={Array []}
-            removeCardFromCompare={[Function]}
-/>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
+          "className": "compare-container",
+        },
+        "ref": null,
+        "rendered": Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
@@ -414,29 +711,194 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Search
+              filterDistricts={[Function]}
+/>,
+            <CardContainer
+              addCardToCompare={[Function]}
+              districts={Array []}
+              removeCardFromCompare={[Function]}
+/>,
+          ],
+          "className": "sidebar",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "filterDistricts": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "addCardToCompare": [Function],
+              "districts": Array [],
+              "removeCardFromCompare": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "aside",
+      },
+    ],
+    "type": "main",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <header
+            className="header"
+>
+            <h1>
+                        HeadCount 2.0
+            </h1>
+</header>,
+          <section
+            className="compare-container"
+>
+            <ComparedDistricts
+                        addCardToCompare={[Function]}
+                        comparedDistricts={Array []}
+                        removeCardFromCompare={[Function]}
+            />
+</section>,
+          <aside
+            className="sidebar"
+>
+            <Search
+                        filterDistricts={[Function]}
+            />
+            <CardContainer
+                        addCardToCompare={[Function]}
+                        districts={Array []}
+                        removeCardFromCompare={[Function]}
+            />
+</aside>,
+        ],
+        "className": "grid-container",
+      },
+      "ref": null,
+      "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "host",
           "props": Object {
-            "filterDistricts": [Function],
+            "children": <h1>
+              HeadCount 2.0
+</h1>,
+            "className": "header",
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "HeadCount 2.0",
+            },
+            "ref": null,
+            "rendered": "HeadCount 2.0",
+            "type": "h1",
+          },
+          "type": "header",
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "host",
           "props": Object {
-            "addCardToCompare": [Function],
-            "districts": Array [],
-            "removeCardFromCompare": [Function],
+            "children": <ComparedDistricts
+              addCardToCompare={[Function]}
+              comparedDistricts={Array []}
+              removeCardFromCompare={[Function]}
+/>,
+            "className": "compare-container",
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "addCardToCompare": [Function],
+              "comparedDistricts": Array [],
+              "removeCardFromCompare": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Search
+                filterDistricts={[Function]}
+/>,
+              <CardContainer
+                addCardToCompare={[Function]}
+                districts={Array []}
+                removeCardFromCompare={[Function]}
+/>,
+            ],
+            "className": "sidebar",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "filterDistricts": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "addCardToCompare": [Function],
+                "districts": Array [],
+                "removeCardFromCompare": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "aside",
         },
       ],
       "type": "main",

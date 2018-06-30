@@ -1,1 +1,56 @@
-/*APP COMPONENT RELATED CSS GOES HERE*/
+.grid-container {
+  display: grid;
+  grid-template-areas: "header header header header" "compare-container compare-container compare-container sidebar" "compare-container compare-container compare-container sidebar";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 70px 1fr 1fr;
+  height: 100%;
+}
+
+.header {
+  border: 1px solid slateblue;
+  grid-area: header;
+}
+
+.compare-container {
+  border: 1px solid green;
+  grid-area: compare-container;
+  height: 100vh;
+}
+
+.sidebar {
+  border: 1px solid red;
+  grid-area: sidebar;
+  max-height: 100vh;
+  overflow-y: scroll;
+  padding: 2rem;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+  .grid-container {
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 70px 1fr 1fr;
+  }
+
+  .header {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 0;
+  }
+
+  .compare-container {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+  }
+
+  .sidebar {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 0;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+  }
+}
