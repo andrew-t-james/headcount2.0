@@ -20,7 +20,7 @@ describe('App unit test suite', () => {
   });
 
   test('should call invoke getSchoolDistrictData on mount', () => {
-    const spy = spyOn(wrapper.instance(), 'getSchoolDistrictData');
+    const spy = jest.spyOn(wrapper.instance(), 'getSchoolDistrictData');
     wrapper.instance().componentDidMount();
     expect(spy).toHaveBeenCalled();
   });
@@ -51,7 +51,7 @@ describe('App unit test suite', () => {
   });
 
   test('should have been called with a parameter', () => {
-    const spy = spyOn(wrapper.instance(), 'filterDistricts');
+    const spy = jest.spyOn(wrapper.instance(), 'filterDistricts');
     wrapper.instance().filterDistricts('Colo');
     expect(spy).toHaveBeenCalledWith('Colo');
   });

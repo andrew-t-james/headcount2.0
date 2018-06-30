@@ -22,7 +22,7 @@ describe('Search From unit test suite', () => {
   });
 
   test('should update state on change', () => {
-    const spy = spyOn(wrapper.instance(), 'handleChange');
+    const spy = jest.spyOn(wrapper.instance(), 'handleChange');
     const mockEvent = {
       target: {
         value: 'Colorado'
