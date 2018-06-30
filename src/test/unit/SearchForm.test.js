@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Search from '../../components/Search/Search';
 
 describe('Search From unit test suite', () => {
@@ -22,7 +22,7 @@ describe('Search From unit test suite', () => {
   });
 
   test('should update state on change', () => {
-    const spy = spyOn(wrapper.instance(), 'handleChange');
+    const spy = jest.spyOn(wrapper.instance(), 'handleChange');
     const mockEvent = {
       target: {
         value: 'Colorado'
