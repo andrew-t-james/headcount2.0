@@ -15,12 +15,7 @@ class App extends Component {
     super();
     this.state = {
       districts: [],
-      comparedDistricts: [
-        {
-          location: 'hellow',
-          stats: {2000: 0.29293}
-        }
-      ]
+      comparedDistricts: []
     };
   }
 
@@ -44,6 +39,18 @@ class App extends Component {
     }
   }
 
+  addCardToComparedDistricts = (location, stats) => {
+    const districtObject = {
+      location: location,
+      stats: stats
+    }
+    this.setState({comparedDistricts: [districtObject] })
+  }
+
+  removeCardFromComparedDistricts() {
+
+  }
+
   render() {
     const { districts, comparedDistricts } = this.state;
 
@@ -57,6 +64,7 @@ class App extends Component {
         />
         <CardContainer
           districts={districts}
+          addCardToComparedDistricts={this.addCardToComparedDistricts}
         />
       </main>
     );
