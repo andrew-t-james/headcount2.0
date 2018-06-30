@@ -2,20 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const ComparedDistricts = ({ comparedDistricts, handleComparedDistrictsData }) => {
-  comparedDistricts = [
-    {
-      location: 'hellow',
-      stats: {
-        2000: 0.292
-      }
-    },
-    {
-      location: 'he',
-      stats: {
-        2000: 0.123
-      }
-    }
-  ];
+  // comparedDistricts = [
+  //   {
+  //     location: 'hellow',
+  //     stats: {
+  //       2000: 0.292
+  //     }
+  //   },
+  //   {
+  //     location: 'he',
+  //     stats: {
+  //       2000: 0.123
+  //     }
+  //   }
+  // ];
 
   const displaySelectedCards = comparedDistricts.map(district =>
     <article onClick={() => handleComparedDistrictsData(district.location, district.stats)} key={district.location}>
