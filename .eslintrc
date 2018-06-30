@@ -2,18 +2,26 @@
   "parser": "babel-eslint",
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:jest/recommended"
   ],
   "plugins": [
-    "react"
+    "react",
+    "jest"
   ],
   "env": {
     "browser": true,
-    "mocha": true,
     "node": true,
+    "jest": true,
+    "jest/globals": true,
     "es6": true
   },
   "rules": {
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
     "no-debugger": "off",
     "eqeqeq": [
       "error",
@@ -85,7 +93,7 @@
     ],
     "max-len": [
       "warn",
-      80
+      120
     ],
     "no-duplicate-imports": "error",
     "id-length": "error",

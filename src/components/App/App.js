@@ -15,12 +15,7 @@ class App extends Component {
     super();
     this.state = {
       districts: [],
-      comparedDistricts: [
-        {
-          location: 'hellow',
-          stats: {2000: 0.29293}
-        }
-      ]
+      comparedDistricts: []
     };
   }
 
@@ -49,8 +44,8 @@ class App extends Component {
 
     return (
       <main>
-        <ComparedDistricts 
-          comparedDistricts={comparedDistricts} 
+        <ComparedDistricts
+          comparedDistricts={comparedDistricts}
         />
         <Search
           filterDistricts={this.filterDistricts}

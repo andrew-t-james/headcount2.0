@@ -26,28 +26,28 @@ describe('App unit test suite', () => {
   });
 
   test('it should update state when getSchoolDistrictData is invoked', () => {
-    expect(wrapper.state('districts').length).toBe(0);
+    expect(wrapper.state('districts')).toHaveLength(0);
     wrapper.instance().getSchoolDistrictData();
-    expect(wrapper.state('districts').length).toBe(181);
+    expect(wrapper.state('districts')).toHaveLength(181);
   });
 
   test('it should filter districts when filterDistricts is invoked', () => {
     wrapper.instance().getSchoolDistrictData();
-    expect(wrapper.state('districts').length).toBe(181);
+    expect(wrapper.state('districts')).toHaveLength(181);
     wrapper.instance().filterDistricts('Color');
-    expect(wrapper.state('districts').length).toBe(2);
+    expect(wrapper.state('districts')).toHaveLength(2);
   });
 
   test('it should reset districts when a no query is passed to filterDistricts', () => {
     wrapper.instance().getSchoolDistrictData();
     wrapper.instance().filterDistricts('');
-    expect(wrapper.state('districts').length).toBe(181);
+    expect(wrapper.state('districts')).toHaveLength(181);
   });
 
   test('it if no matches present filterSchools should not display cards ', () => {
     wrapper.instance().getSchoolDistrictData();
     wrapper.instance().filterDistricts('adkfljl');
-    expect(wrapper.state('districts').length).toBe(0);
+    expect(wrapper.state('districts')).toHaveLength(0);
   });
 
   test('should have been called with a parameter', () => {
@@ -69,5 +69,5 @@ describe('App unit test suite', () => {
     wrapper.instance().filterDistricts('Colo');
     expect(wrapper).toMatchSnapshot();
   });
-  
+
 });

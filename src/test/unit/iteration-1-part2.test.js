@@ -5,17 +5,17 @@ describe('DistrictRepository iteration 1 - part 2', () =>  {
   const district = new DistrictRepository(kinderData);
 
   test('findAllMatches defaults to returning all data in an array', () => {
-    expect(district.findAllMatches().length).toBe(181);
+    expect(district.findAllMatches()).toHaveLength(181);
   });
 
   test('findAllMatches returns matches in an array, case insensitive', () => {
-    expect(district.findAllMatches('ColoRado').length).toBe(2);
+    expect(district.findAllMatches('ColoRado')).toHaveLength(2);
   });
 
-  test('findAllMatches finds no matches and returns an empty array when given arguments that dont exist within the data', () => {
-    expect(district.findAllMatches('al;dkfjas;dlkjasdfl;').length).toBe(0);
-    expect(district.findAllMatches('packers').length).toBe(0);
-    expect(district.findAllMatches('df').length).toBe(0);
+  test('findAllMatches finds no matches and returns an empty array when given arguments that dont match data', () => {
+    expect(district.findAllMatches('al;dkfjas;dlkjasdfl;')).toHaveLength(0);
+    expect(district.findAllMatches('packers')).toHaveLength(0);
+    expect(district.findAllMatches('df')).toHaveLength(0);
   });
 
 });
