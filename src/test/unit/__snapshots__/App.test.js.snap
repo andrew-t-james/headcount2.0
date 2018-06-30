@@ -19,13 +19,31 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <ComparedDistricts
-          comparedDistricts={Array []}
+          addCardToCompare={[Function]}
+          comparedDistricts={
+                    Array [
+                              Object {
+                                "location": "ACADEMY 20",
+                                "stats": Object {
+                                  "2004": 0.302,
+                                  "2005": 0.267,
+                                  "2006": 0.354,
+                                  "2007": 0.392,
+                                  "2008": 0.385,
+                                  "2009": 0.39,
+                                },
+                              },
+                            ]
+          }
+          removeCardFromCompare={[Function]}
 />,
         <Search
           filterDistricts={[Function]}
 />,
         <CardContainer
+          addCardToCompare={[Function]}
           districts={Array []}
+          removeCardFromCompare={[Function]}
 />,
       ],
     },
@@ -36,7 +54,21 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "comparedDistricts": Array [],
+          "addCardToCompare": [Function],
+          "comparedDistricts": Array [
+            Object {
+              "location": "ACADEMY 20",
+              "stats": Object {
+                "2004": 0.302,
+                "2005": 0.267,
+                "2006": 0.354,
+                "2007": 0.392,
+                "2008": 0.385,
+                "2009": 0.39,
+              },
+            },
+          ],
+          "removeCardFromCompare": [Function],
         },
         "ref": null,
         "rendered": null,
@@ -58,7 +90,9 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "addCardToCompare": [Function],
           "districts": Array [],
+          "removeCardFromCompare": [Function],
         },
         "ref": null,
         "rendered": null,
@@ -75,13 +109,31 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <ComparedDistricts
-            comparedDistricts={Array []}
+            addCardToCompare={[Function]}
+            comparedDistricts={
+                        Array [
+                                    Object {
+                                      "location": "ACADEMY 20",
+                                      "stats": Object {
+                                        "2004": 0.302,
+                                        "2005": 0.267,
+                                        "2006": 0.354,
+                                        "2007": 0.392,
+                                        "2008": 0.385,
+                                        "2009": 0.39,
+                                      },
+                                    },
+                                  ]
+            }
+            removeCardFromCompare={[Function]}
 />,
           <Search
             filterDistricts={[Function]}
 />,
           <CardContainer
+            addCardToCompare={[Function]}
             districts={Array []}
+            removeCardFromCompare={[Function]}
 />,
         ],
       },
@@ -92,7 +144,21 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "comparedDistricts": Array [],
+            "addCardToCompare": [Function],
+            "comparedDistricts": Array [
+              Object {
+                "location": "ACADEMY 20",
+                "stats": Object {
+                  "2004": 0.302,
+                  "2005": 0.267,
+                  "2006": 0.354,
+                  "2007": 0.392,
+                  "2008": 0.385,
+                  "2009": 0.39,
+                },
+              },
+            ],
+            "removeCardFromCompare": [Function],
           },
           "ref": null,
           "rendered": null,
@@ -114,7 +180,9 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "addCardToCompare": [Function],
             "districts": Array [],
+            "removeCardFromCompare": [Function],
           },
           "ref": null,
           "rendered": null,
@@ -154,13 +222,31 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <ComparedDistricts
-          comparedDistricts={Array []}
+          addCardToCompare={[Function]}
+          comparedDistricts={
+                    Array [
+                              Object {
+                                "location": "ACADEMY 20",
+                                "stats": Object {
+                                  "2004": 0.302,
+                                  "2005": 0.267,
+                                  "2006": 0.354,
+                                  "2007": 0.392,
+                                  "2008": 0.385,
+                                  "2009": 0.39,
+                                },
+                              },
+                            ]
+          }
+          removeCardFromCompare={[Function]}
 />,
         <Search
           filterDistricts={[Function]}
 />,
         <CardContainer
+          addCardToCompare={[Function]}
           districts={Array []}
+          removeCardFromCompare={[Function]}
 />,
       ],
     },
@@ -171,7 +257,21 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "comparedDistricts": Array [],
+          "addCardToCompare": [Function],
+          "comparedDistricts": Array [
+            Object {
+              "location": "ACADEMY 20",
+              "stats": Object {
+                "2004": 0.302,
+                "2005": 0.267,
+                "2006": 0.354,
+                "2007": 0.392,
+                "2008": 0.385,
+                "2009": 0.39,
+              },
+            },
+          ],
+          "removeCardFromCompare": [Function],
         },
         "ref": null,
         "rendered": null,
@@ -193,7 +293,9 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "addCardToCompare": [Function],
           "districts": Array [],
+          "removeCardFromCompare": [Function],
         },
         "ref": null,
         "rendered": null,
@@ -210,13 +312,31 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <ComparedDistricts
-            comparedDistricts={Array []}
+            addCardToCompare={[Function]}
+            comparedDistricts={
+                        Array [
+                                    Object {
+                                      "location": "ACADEMY 20",
+                                      "stats": Object {
+                                        "2004": 0.302,
+                                        "2005": 0.267,
+                                        "2006": 0.354,
+                                        "2007": 0.392,
+                                        "2008": 0.385,
+                                        "2009": 0.39,
+                                      },
+                                    },
+                                  ]
+            }
+            removeCardFromCompare={[Function]}
 />,
           <Search
             filterDistricts={[Function]}
 />,
           <CardContainer
+            addCardToCompare={[Function]}
             districts={Array []}
+            removeCardFromCompare={[Function]}
 />,
         ],
       },
@@ -227,7 +347,21 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "comparedDistricts": Array [],
+            "addCardToCompare": [Function],
+            "comparedDistricts": Array [
+              Object {
+                "location": "ACADEMY 20",
+                "stats": Object {
+                  "2004": 0.302,
+                  "2005": 0.267,
+                  "2006": 0.354,
+                  "2007": 0.392,
+                  "2008": 0.385,
+                  "2009": 0.39,
+                },
+              },
+            ],
+            "removeCardFromCompare": [Function],
           },
           "ref": null,
           "rendered": null,
@@ -249,7 +383,9 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "addCardToCompare": [Function],
             "districts": Array [],
+            "removeCardFromCompare": [Function],
           },
           "ref": null,
           "rendered": null,
@@ -289,13 +425,31 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <ComparedDistricts
-          comparedDistricts={Array []}
+          addCardToCompare={[Function]}
+          comparedDistricts={
+                    Array [
+                              Object {
+                                "location": "ACADEMY 20",
+                                "stats": Object {
+                                  "2004": 0.302,
+                                  "2005": 0.267,
+                                  "2006": 0.354,
+                                  "2007": 0.392,
+                                  "2008": 0.385,
+                                  "2009": 0.39,
+                                },
+                              },
+                            ]
+          }
+          removeCardFromCompare={[Function]}
 />,
         <Search
           filterDistricts={[Function]}
 />,
         <CardContainer
+          addCardToCompare={[Function]}
           districts={Array []}
+          removeCardFromCompare={[Function]}
 />,
       ],
     },
@@ -306,7 +460,21 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "comparedDistricts": Array [],
+          "addCardToCompare": [Function],
+          "comparedDistricts": Array [
+            Object {
+              "location": "ACADEMY 20",
+              "stats": Object {
+                "2004": 0.302,
+                "2005": 0.267,
+                "2006": 0.354,
+                "2007": 0.392,
+                "2008": 0.385,
+                "2009": 0.39,
+              },
+            },
+          ],
+          "removeCardFromCompare": [Function],
         },
         "ref": null,
         "rendered": null,
@@ -328,7 +496,9 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "addCardToCompare": [Function],
           "districts": Array [],
+          "removeCardFromCompare": [Function],
         },
         "ref": null,
         "rendered": null,
@@ -345,13 +515,31 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <ComparedDistricts
-            comparedDistricts={Array []}
+            addCardToCompare={[Function]}
+            comparedDistricts={
+                        Array [
+                                    Object {
+                                      "location": "ACADEMY 20",
+                                      "stats": Object {
+                                        "2004": 0.302,
+                                        "2005": 0.267,
+                                        "2006": 0.354,
+                                        "2007": 0.392,
+                                        "2008": 0.385,
+                                        "2009": 0.39,
+                                      },
+                                    },
+                                  ]
+            }
+            removeCardFromCompare={[Function]}
 />,
           <Search
             filterDistricts={[Function]}
 />,
           <CardContainer
+            addCardToCompare={[Function]}
             districts={Array []}
+            removeCardFromCompare={[Function]}
 />,
         ],
       },
@@ -362,7 +550,21 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "comparedDistricts": Array [],
+            "addCardToCompare": [Function],
+            "comparedDistricts": Array [
+              Object {
+                "location": "ACADEMY 20",
+                "stats": Object {
+                  "2004": 0.302,
+                  "2005": 0.267,
+                  "2006": 0.354,
+                  "2007": 0.392,
+                  "2008": 0.385,
+                  "2009": 0.39,
+                },
+              },
+            ],
+            "removeCardFromCompare": [Function],
           },
           "ref": null,
           "rendered": null,
@@ -384,7 +586,9 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "addCardToCompare": [Function],
             "districts": Array [],
+            "removeCardFromCompare": [Function],
           },
           "ref": null,
           "rendered": null,

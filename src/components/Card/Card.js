@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import './Card.css';
 
-const Card = ({ location, stats }) => {
+const Card = ({ location, stats, removeCard }) => {
 
   const districtStats = Object.keys(stats).map(stat =>
     <li className="card-stats" key={stat}>
@@ -15,7 +15,8 @@ const Card = ({ location, stats }) => {
   );
 
   return (
-    <div className="card">
+    // <div onClick={() => addCard(location, stats)} className="card">
+    <div onClick={() => removeCard(location)} className="card">
       <h2 className="card-location">{location}</h2>
       <ul className="card-list">
         {districtStats}
@@ -26,7 +27,9 @@ const Card = ({ location, stats }) => {
 
 Card.propTypes = {
   location: PropTypes.string.isRequired,
-  stats: PropTypes.object.isRequired
+  stats: PropTypes.object.isRequired,
+  addCard: PropTypes.func,
+  removeCard: PropTypes.func
 };
 
 export default Card;

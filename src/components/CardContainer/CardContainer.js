@@ -4,10 +4,18 @@ import Card from '../Card/Card';
 
 import './CardContainer.css';
 
-const CardContainer = props => {
-  const { districts } = props;
+const CardContainer = ({ districts, addCardToCompare, removeCardFromCompare}) => {
 
-  const districtData = districts.map(district => <Card {...district} key={district.location} />);
+  const districtData = districts.map(district => {
+    return (
+      <Card
+        {...district}
+        key={district.location}
+        addCard={addCardToCompare}
+        removeCard={removeCardFromCompare}
+      />
+    );
+  });
 
   return (
     <div>
@@ -18,7 +26,9 @@ const CardContainer = props => {
 };
 
 CardContainer.propTypes = {
-  districts: PropTypes.arrayOf(PropTypes.object).isRequired
+  districts: PropTypes.arrayOf(PropTypes.object).isRequired,
+  addCardToCompare: PropTypes.func,
+  removeCardFromCompare: PropTypes.func
 };
 
 export default CardContainer;
