@@ -41,19 +41,19 @@ describe('CardContainer test suite', () => {
 
   afterEach(() => wrapper.unmount());
 
-  test('There should be three cards created in the CardContainer when given props array', () => {
+  test('should be three cards created in the CardContainer when given props array', () => {
     const cards = wrapper.find(Card).length;
     expect(cards).toBe(3);
   });
 
-  test('There should be 181 cards created, one for each district', () => {
+  test('should be 181 cards created, one for each district', () => {
     const getDistricts = new DistrictRepository(kinderData);
     const districts = Object.values(getDistricts.stats);
     wrapper = shallow(<CardContainer districts={districts} />);
     expect(wrapper).toMatchSnapshot();
   });
 
-  test('When CardContainer is rendered it should match the snapshot', () => {
+  test('should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
