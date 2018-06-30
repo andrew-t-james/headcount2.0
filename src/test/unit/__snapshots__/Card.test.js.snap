@@ -34,7 +34,7 @@ ShallowWrapper {
           The Moon
 </h2>,
         <ul
-          className="card-list"
+          className="card-list collapsed-list"
 >
           <li
                     className="card-stats"
@@ -170,7 +170,7 @@ ShallowWrapper {
               />
 </li>,
           ],
-          "className": "card-list",
+          "className": "card-list collapsed-list",
         },
         "ref": null,
         "rendered": Array [
@@ -383,7 +383,7 @@ ShallowWrapper {
             The Moon
 </h2>,
           <ul
-            className="card-list"
+            className="card-list collapsed-list"
 >
             <li
                         className="card-stats"
@@ -519,7 +519,7 @@ ShallowWrapper {
                 />
 </li>,
             ],
-            "className": "card-list",
+            "className": "card-list collapsed-list",
           },
           "ref": null,
           "rendered": Array [

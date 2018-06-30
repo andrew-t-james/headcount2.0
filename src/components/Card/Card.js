@@ -18,7 +18,7 @@ const Card = ({ location, stats, removeCard }) => {
     // <div onClick={() => addCard(location, stats)} className="card">
     <div onClick={() => removeCard(location)} className="card">
       <h2 className="card-location">{location}</h2>
-      <ul className="card-list">
+      <ul className="card-list collapsed-list">
         {districtStats}
       </ul>
     </div>
