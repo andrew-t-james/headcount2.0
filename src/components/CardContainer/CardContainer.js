@@ -19,8 +19,13 @@ const CardContainer = ({ districts, addCardToCompare, removeCardFromCompare}) =>
 
   return (
     <div>
-      <h1>Card Container</h1>
-      <div className="card-container">{districtData}</div>
+      { districtData &&
+        <div className="card-container">{districtData}</div>
+      }
+      {
+        !districtData.length &&
+        <div className="card-container-error">Oops No District by that name</div>
+      }
     </div>
   );
 };
