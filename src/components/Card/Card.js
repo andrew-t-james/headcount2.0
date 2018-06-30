@@ -17,7 +17,7 @@ const Card = ({ location, stats, handleComparedDistrictsData}) => {
   return (
     <div onClick={() => handleComparedDistrictsData(location, stats)} className="card">
       <h2 className="card-location">{location}</h2>
-      <ul className="card-list">
+      <ul className="card-list collapsed-list">
         {districtStats}
       </ul>
     </div>

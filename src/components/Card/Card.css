@@ -2,8 +2,13 @@
   border: 1px solid red;
   border-radius: 0.4rem;
   box-shadow: 0.8rem 1rem 2rem 0 rgba(46, 61, 73, 0.15);
+  cursor: pointer;
   padding: 2rem 3rem;
   text-align: center;
+}
+
+.card:not(:last-of-type) {
+  margin-bottom: 2rem;
 }
 
 .card-location {
@@ -14,6 +19,12 @@
 .card-list {
   list-style: none;
   vertical-align: baseline;
+}
+
+.collapsed-list {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
 }
 
 .card-stats {
