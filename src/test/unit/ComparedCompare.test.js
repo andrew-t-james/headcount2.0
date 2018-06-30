@@ -15,7 +15,7 @@ describe('ComparedDistrict unit test suite', () => {
 
   beforeEach(() => wrapper = shallow(<ComparedDistricts comparedDistricts={mockDistricts}/>));
 
-  afterEach(() wrapper.unmount());
+  afterEach(() => wrapper.unmount());
 
   test('should match snapshot', () => {
     expect(wrapper).toMatchSnapshot();
