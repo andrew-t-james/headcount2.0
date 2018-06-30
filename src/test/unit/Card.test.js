@@ -12,7 +12,7 @@ describe('Card unit test suite', () => {
       2004: 8,
       2005: 0
     }
-  }
+  };
 
   const wrapper = shallow(<Card {...mockDistrict} key={mockDistrict.location} />);
 

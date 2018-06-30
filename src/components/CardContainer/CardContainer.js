@@ -7,13 +7,13 @@ import './CardContainer.css';
 const CardContainer = ({ districts, addCardToComparedDistricts}) => {
 
   const districtData = districts.map(district => {
-    return(
+    return (
       <Card 
         {...district} 
         key={district.location} 
         addCard={addCardToComparedDistricts}
       />
-    )
+    );
   });
 
   return (
@@ -25,7 +25,8 @@ const CardContainer = ({ districts, addCardToComparedDistricts}) => {
 };
 
 CardContainer.propTypes = {
-  districts: PropTypes.arrayOf(PropTypes.object).isRequired
+  districts: PropTypes.arrayOf(PropTypes.object).isRequired,
+  addCardToComparedDistricts: PropTypes.func
 };
 
 export default CardContainer;

@@ -43,8 +43,8 @@ class App extends Component {
     const districtObject = {
       location: location,
       stats: stats
-    }
-    this.setState({comparedDistricts: [districtObject] })
+    };
+    this.setState({comparedDistricts: [...this.state.comparedDistricts, districtObject] });
   }
 
   removeCardFromComparedDistricts() {
@@ -58,6 +58,7 @@ class App extends Component {
       <main>
         <ComparedDistricts 
           comparedDistricts={comparedDistricts} 
+          addCardToComparedDistricts={this.addCardToComparedDistricts}
         />
         <Search
           filterDistricts={this.filterDistricts}

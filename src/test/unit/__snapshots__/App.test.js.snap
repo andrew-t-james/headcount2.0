@@ -19,6 +19,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <ComparedDistricts
+          addCardToComparedDistricts={[Function]}
           comparedDistricts={Array []}
 />,
         <Search
@@ -37,6 +38,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "addCardToComparedDistricts": [Function],
           "comparedDistricts": Array [],
         },
         "ref": null,
@@ -77,6 +79,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <ComparedDistricts
+            addCardToComparedDistricts={[Function]}
             comparedDistricts={Array []}
 />,
           <Search
@@ -95,6 +98,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "addCardToComparedDistricts": [Function],
             "comparedDistricts": Array [],
           },
           "ref": null,
@@ -158,6 +162,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <ComparedDistricts
+          addCardToComparedDistricts={[Function]}
           comparedDistricts={Array []}
 />,
         <Search
@@ -176,6 +181,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "addCardToComparedDistricts": [Function],
           "comparedDistricts": Array [],
         },
         "ref": null,
@@ -216,6 +222,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <ComparedDistricts
+            addCardToComparedDistricts={[Function]}
             comparedDistricts={Array []}
 />,
           <Search
@@ -234,6 +241,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "addCardToComparedDistricts": [Function],
             "comparedDistricts": Array [],
           },
           "ref": null,
@@ -297,6 +305,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <ComparedDistricts
+          addCardToComparedDistricts={[Function]}
           comparedDistricts={Array []}
 />,
         <Search
@@ -315,6 +324,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "addCardToComparedDistricts": [Function],
           "comparedDistricts": Array [],
         },
         "ref": null,
@@ -355,6 +365,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <ComparedDistricts
+            addCardToComparedDistricts={[Function]}
             comparedDistricts={Array []}
 />,
           <Search
@@ -373,6 +384,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "addCardToComparedDistricts": [Function],
             "comparedDistricts": Array [],
           },
           "ref": null,

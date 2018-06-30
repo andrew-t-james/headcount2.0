@@ -26,7 +26,8 @@ const Card = ({ location, stats, addCard }) => {
 
 Card.propTypes = {
   location: PropTypes.string.isRequired,
-  stats: PropTypes.object.isRequired
+  stats: PropTypes.object.isRequired,
+  addCard: PropTypes.func
 };
 
 export default Card;
