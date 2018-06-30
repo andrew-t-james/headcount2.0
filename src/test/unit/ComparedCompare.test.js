@@ -10,6 +10,12 @@ describe('ComparedDistrict unit test suite', () => {
       stats: {
         2004: 0.393
       }
+    },
+    {
+      location: 'Adams',
+      stats: {
+        2004: 0.393
+      }
     }
   ];
 
