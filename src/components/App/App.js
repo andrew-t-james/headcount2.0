@@ -49,11 +49,21 @@ class App extends Component {
     }
   }
 
-  handleComparedDistrictsData = (location, stats) => {
-    // if() {
-
-    // }
-  }
+  // handleComparedDistrictsData = (location, stats) => {
+  //   if('card location doesnt exist add it, unless there are already 2 then remove and add') {
+  //     if(this.state.comparedDistricts.lenght < 2) {
+  //       addCardToCompare(location, stats);
+  //     } else {
+  //       const districtObject = {
+  //         location: location,
+  //         stats: stats
+  //       };
+  //       'need to figure out how to update state using push and pop'
+  //     }
+  //   } else {
+  //     removeCardFromCompare(location);
+  //   }
+  // }
 
   addCardToCompare = (location, stats) => {
     const districtObject = {
@@ -64,7 +74,6 @@ class App extends Component {
   }
 
   removeCardFromCompare = (location) => {
-    console.log(location);
     const comparedDistricts = this.state.comparedDistricts.filter( card => {
       return location !== card.location
     })
