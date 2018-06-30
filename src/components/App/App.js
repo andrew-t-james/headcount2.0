@@ -50,9 +50,9 @@ class App extends Component {
     const queriedDistrict = schoolDistricts.findAllMatches(query);
 
     if (query === '') {
-      this.setState({districts: this.getSchoolDistrictData() });
+      this.setState({ districts: this.getSchoolDistrictData() });
     } else {
-      this.setState({districts: queriedDistrict});
+      this.setState({ districts: queriedDistrict });
     }
   }
 
