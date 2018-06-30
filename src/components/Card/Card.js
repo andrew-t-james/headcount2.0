@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import './Card.css';
 
-const Card = ({ location, stats, addCard }) => {
+const Card = ({ location, stats, addCard, removeCard }) => {
 
   const districtStats = Object.keys(stats).map(stat =>
     <li className="card-stats" key={stat}>
@@ -15,7 +15,8 @@ const Card = ({ location, stats, addCard }) => {
   );
 
   return (
-    <div onClick={() => addCard(location, stats)} className="card">
+    // <div onClick={() => addCard(location, stats)} className="card">
+    <div onClick={() => removeCard(location)} className="card">
       <h2 className="card-location">{location}</h2>
       <ul className="card-list">
         {districtStats}

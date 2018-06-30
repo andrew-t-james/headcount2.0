@@ -2,14 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Card from '../Card/Card';
 
-const ComparedDistricts = ({comparedDistricts, addCardToComparedDistricts}) => {
+const ComparedDistricts = ({comparedDistricts, addCardToCompare, removeCardFromCompare}) => {
 
   const displaySelectedCards = comparedDistricts.map(district => {
     return (
       <Card 
         {...district} 
         key={district.location} 
-        addCard={addCardToComparedDistricts}
+        addCard={addCardToCompare}
+        removeCard={removeCardFromCompare}
       />
     );
   });
@@ -25,7 +26,7 @@ const ComparedDistricts = ({comparedDistricts, addCardToComparedDistricts}) => {
 
 ComparedDistricts.propTypes = {
   comparedDistricts: PropTypes.arrayOf(PropTypes.object).isRequired,
-  addCardToComparedDistricts: PropTypes.func.isRequired
+  addCardToCompare: PropTypes.func
 };
 
 export default ComparedDistricts;
