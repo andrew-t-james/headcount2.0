@@ -39,7 +39,8 @@ class App extends Component {
     }
   }
 
-  // handleComparedDistrictsData = (location, stats) => {
+  handleComparedDistrictsData = (location, stats) => {
+    console.log(location);
   //   if('card location doesnt exist add it, unless there are already 2 then remove and add') {
   //     if(this.state.comparedDistricts.lenght < 2) {
   //       addCardToCompare(location, stats);
@@ -53,7 +54,7 @@ class App extends Component {
   //   } else {
   //     removeCardFromCompare(location);
   //   }
-  // }
+  }
 
   addCardToCompare = (location, stats) => {
     const { comparedDistricts } = this.state;
@@ -62,7 +63,6 @@ class App extends Component {
       location,
       stats
     };
-
     this.setState({
       comparedDistricts: [...comparedDistricts, districtObject]
     });
@@ -70,7 +70,6 @@ class App extends Component {
 
   removeCardFromCompare = location => {
     const comparedDistricts = this.state.comparedDistricts.filter( card => location !== card.location);
-
     this.setState({ comparedDistricts });
   }
 
@@ -85,8 +84,7 @@ class App extends Component {
         <section className="compare-container">
           <ComparedDistricts
             comparedDistricts={comparedDistricts}
-            addCardToCompare={this.addCardToCompare}
-            removeCardFromCompare={this.removeCardFromCompare}
+            handleComparedDistrictsData={this.handleComparedDistrictsData}
           />
         </section>
         <aside className="sidebar">
@@ -95,8 +93,7 @@ class App extends Component {
           />
           <CardContainer
             districts={districts}
-            addCardToCompare={this.addCardToCompare}
-            removeCardFromCompare={this.removeCardFromCompare}
+            handleComparedDistrictsData={this.handleComparedDistrictsData}
           />
         </aside>
       </main>
