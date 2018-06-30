@@ -15,19 +15,7 @@ class App extends Component {
     super();
     this.state = {
       districts: [],
-      comparedDistricts: [
-        {
-          location: "ACADEMY 20",
-          stats: {
-            2004: 0.302,
-            2005: 0.267,
-            2006: 0.354,
-            2007: 0.392,
-            2008: 0.385,
-            2009: 0.39
-          }
-        }
-      ]
+      comparedDistricts: []
     };
   }
 

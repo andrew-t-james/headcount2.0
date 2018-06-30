@@ -19,6 +19,7 @@
     "enzyme-adapter-react-16": "1.1.1",
     "eslint": "^5.0.0",
     "eslint-plugin-jest": "21.15.1",
+    "husky": "0.14.3",
     "react-scripts": "1.1.0"
   },
   "jest": {
@@ -27,5 +28,11 @@
       "!src/index.js",
       "!src/data/*.js"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run eslint",
+      "pre-push": "npm test"
+    }
   }
 }
