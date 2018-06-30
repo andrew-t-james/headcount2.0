@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
+import './Search.css';
+
 export class Search extends Component {
   constructor() {
     super();
@@ -21,13 +23,16 @@ export class Search extends Component {
     const { query } = this.state;
 
     return (
-      <input
-        onChange={this.handleChange}
-        type="text"
-        name="query"
-        value={query}
-        placeholder="Search"
-      />
+      <div className="search">
+        <input
+          className="search-input"
+          onChange={this.handleChange}
+          type="text"
+          name="query"
+          value={query}
+          placeholder="Search"
+        />
+      </div>
     );
   }
 }
