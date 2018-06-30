@@ -1,21 +1,19 @@
 .search {
-  background-color: salmon;
-  border: 1px solid olivedrab;
-  height: 5rem;
+  background-color: #ffffff;
+  height: 4rem;
   position: absolute;
   top: 7rem;
-  width: 38rem;
+  width: 37.8rem;
 }
 
 .search-input {
   -webkit-appearance: none;
-  background: none;
   border: 0;
   border: 1px solid red;
-  font-size: 13px;
+  font-size: 1.5rem;
   height: 3em;
   outline: 0;
-  padding: 1rem 2rem;
+  padding: 2rem;
   text-align: left;
   width: 100%;
 }

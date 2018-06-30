@@ -2919,9 +2919,6 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h1>
-          Card Container
-</h1>,
         <div
           className="card-container"
 >
@@ -6546,21 +6543,11 @@ ShallowWrapper {
                     }
           />
 </div>,
+        false,
       ],
     },
     "ref": null,
     "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Card Container",
-        },
-        "ref": null,
-        "rendered": "Card Container",
-        "type": "h1",
-      },
       Object {
         "instance": null,
         "key": undefined,
@@ -14901,6 +14888,7 @@ ShallowWrapper {
         ],
         "type": "div",
       },
+      false,
     ],
     "type": "div",
   },
@@ -14911,9 +14899,6 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
-            Card Container
-</h1>,
           <div
             className="card-container"
 >
@@ -18538,21 +18523,11 @@ ShallowWrapper {
                         }
             />
 </div>,
+          false,
         ],
       },
       "ref": null,
       "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Card Container",
-          },
-          "ref": null,
-          "rendered": "Card Container",
-          "type": "h1",
-        },
         Object {
           "instance": null,
           "key": undefined,
@@ -26893,6 +26868,7 @@ ShallowWrapper {
           ],
           "type": "div",
         },
+        false,
       ],
       "type": "div",
     },
@@ -26958,9 +26934,6 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h1>
-          Card Container
-</h1>,
         <div
           className="card-container"
 >
@@ -27004,21 +26977,11 @@ ShallowWrapper {
                     }
           />
 </div>,
+        false,
       ],
     },
     "ref": null,
     "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Card Container",
-        },
-        "ref": null,
-        "rendered": "Card Container",
-        "type": "h1",
-      },
       Object {
         "instance": null,
         "key": undefined,
@@ -27129,6 +27092,7 @@ ShallowWrapper {
         ],
         "type": "div",
       },
+      false,
     ],
     "type": "div",
   },
@@ -27139,9 +27103,6 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
-            Card Container
-</h1>,
           <div
             className="card-container"
 >
@@ -27185,21 +27146,11 @@ ShallowWrapper {
                         }
             />
 </div>,
+          false,
         ],
       },
       "ref": null,
       "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Card Container",
-          },
-          "ref": null,
-          "rendered": "Card Container",
-          "type": "h1",
-        },
         Object {
           "instance": null,
           "key": undefined,
@@ -27308,6 +27259,128 @@ ShallowWrapper {
               "type": [Function],
             },
           ],
+          "type": "div",
+        },
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
+
+exports[`CardContainer test suite should match snapshot when no district data is available 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CardContainer
+    districts={Array []}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="card-container"
+>
+          
+</div>,
+        <div
+          className="card-container-error"
+>
+          Oops No District by that name
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [],
+          "className": "card-container",
+        },
+        "ref": null,
+        "rendered": Array [],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Oops No District by that name",
+          "className": "card-container-error",
+        },
+        "ref": null,
+        "rendered": "Oops No District by that name",
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="card-container"
+>
+            
+</div>,
+          <div
+            className="card-container-error"
+>
+            Oops No District by that name
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [],
+            "className": "card-container",
+          },
+          "ref": null,
+          "rendered": Array [],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Oops No District by that name",
+            "className": "card-container-error",
+          },
+          "ref": null,
+          "rendered": "Oops No District by that name",
           "type": "div",
         },
       ],

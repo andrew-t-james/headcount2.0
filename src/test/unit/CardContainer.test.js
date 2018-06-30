@@ -57,4 +57,9 @@ describe('CardContainer test suite', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
+  test('should match snapshot when no district data is available', () => {
+    const mockDistricts = [];
+    wrapper = shallow(<CardContainer districts={mockDistricts} />);
+    expect(wrapper).toMatchSnapshot();
+  });
 });
