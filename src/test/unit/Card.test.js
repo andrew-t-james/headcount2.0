@@ -3,7 +3,7 @@ import Card from '../../components/Card/Card';
 import { shallow } from 'enzyme';
 
 describe('Card unit test suite', () => {
-  
+
   const mockDistrict = {
     location:'The Moon',
     stats: {
@@ -19,5 +19,5 @@ describe('Card unit test suite', () => {
   test('When Card is rendered it should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot();
   });
-  
+
 });

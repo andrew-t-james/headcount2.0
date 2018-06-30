@@ -15,9 +15,11 @@ const ComparedDistricts = ({comparedDistricts, addCardToComparedDistricts}) => {
   });
 
   return (
-    <div>
-      {displaySelectedCards}
-    </div>
+    <section>
+      {displaySelectedCards[0]}
+      <p>District Data</p>
+      {displaySelectedCards[1]}
+    </section>
   );
 };
 
