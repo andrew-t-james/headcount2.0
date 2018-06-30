@@ -6,9 +6,9 @@ const ComparedDistricts = ({comparedDistricts, addCardToCompare, removeCardFromC
 
   const displaySelectedCards = comparedDistricts.map(district => {
     return (
-      <Card 
-        {...district} 
-        key={district.location} 
+      <Card
+        {...district}
+        key={district.location}
         addCard={addCardToCompare}
         removeCard={removeCardFromCompare}
       />
@@ -26,7 +26,8 @@ const ComparedDistricts = ({comparedDistricts, addCardToCompare, removeCardFromC
 
 ComparedDistricts.propTypes = {
   comparedDistricts: PropTypes.arrayOf(PropTypes.object).isRequired,
-  addCardToCompare: PropTypes.func
+  addCardToCompare: PropTypes.func,
+  removeCardFromCompare: PropTypes.func
 };
 
 export default ComparedDistricts;

@@ -8,9 +8,9 @@ const CardContainer = ({ districts, addCardToCompare, removeCardFromCompare}) =>
 
   const districtData = districts.map(district => {
     return (
-      <Card 
-        {...district} 
-        key={district.location} 
+      <Card
+        {...district}
+        key={district.location}
         addCard={addCardToCompare}
         removeCard={removeCardFromCompare}
       />
@@ -27,7 +27,8 @@ const CardContainer = ({ districts, addCardToCompare, removeCardFromCompare}) =>
 
 CardContainer.propTypes = {
   districts: PropTypes.arrayOf(PropTypes.object).isRequired,
-  addCardToCompare: PropTypes.func
+  addCardToCompare: PropTypes.func,
+  removeCardFromCompare: PropTypes.func
 };
 
 export default CardContainer;

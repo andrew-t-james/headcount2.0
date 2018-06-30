@@ -1,8 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import App from '../../components/App/App';
-import CardContainer from '../../components/CardContainer/CardContainer';
-import Search from '../../components/Search/Search';
 
 describe('App unit test suite', () => {
   let wrapper;

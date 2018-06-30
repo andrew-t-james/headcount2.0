@@ -15,17 +15,19 @@ class App extends Component {
     super();
     this.state = {
       districts: [],
-      comparedDistricts: [{
-        location: "ACADEMY 20",
-        stats: {
-          2004: 0.302,
-          2005: 0.267,
-          2006: 0.354,
-          2007: 0.392,
-          2008: 0.385,
-          2009: 0.39
+      comparedDistricts: [
+        {
+          location: "ACADEMY 20",
+          stats: {
+            2004: 0.302,
+            2005: 0.267,
+            2006: 0.354,
+            2007: 0.392,
+            2008: 0.385,
+            2009: 0.39
+          }
         }
-      },]
+      ]
     };
   }
 
@@ -66,20 +68,22 @@ class App extends Component {
   // }
 
   addCardToCompare = (location, stats) => {
+    const { comparedDistricts } = this.state;
+
     const districtObject = {
-      location: location,
-      stats: stats
+      location,
+      stats
     };
-    this.setState({comparedDistricts: [...this.state.comparedDistricts, districtObject] });
+
+    this.setState({
+      comparedDistricts: [...comparedDistricts, districtObject]
+    });
   }
 
-  removeCardFromCompare = (location) => {
-    const comparedDistricts = this.state.comparedDistricts.filter( card => {
-      return location !== card.location
-    })
-    this.setState({
-      comparedDistricts
-    })
+  removeCardFromCompare = location => {
+    const comparedDistricts = this.state.comparedDistricts.filter( card => location !== card.location);
+
+    this.setState({ comparedDistricts });
   }
 
   render() {
@@ -87,8 +91,8 @@ class App extends Component {
 
     return (
       <main>
-        <ComparedDistricts 
-          comparedDistricts={comparedDistricts} 
+        <ComparedDistricts
+          comparedDistricts={comparedDistricts}
           addCardToCompare={this.addCardToCompare}
           removeCardFromCompare={this.removeCardFromCompare}
         />
