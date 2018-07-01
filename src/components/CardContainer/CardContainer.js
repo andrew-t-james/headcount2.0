@@ -5,7 +5,6 @@ import Card from '../Card/Card';
 import './CardContainer.css';
 
 const CardContainer = ({ districts, handleComparedDistrictsData}) => {
-
   const districtData = districts.map(district => {
     return (
       <Card
@@ -23,7 +22,9 @@ const CardContainer = ({ districts, handleComparedDistrictsData}) => {
       }
       {
         !districtData.length &&
-        <div className="card-container-error">Oops No District by that name</div>
+        <div className="card-container">
+          <h2>Oops No District by that name</h2>
+        </div>
       }
     </div>
   );
