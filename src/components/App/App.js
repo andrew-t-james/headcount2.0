@@ -80,10 +80,6 @@ class App extends Component {
         <section className="compare-container">
           <ComparedDistricts
             comparedDistricts={comparedDistricts}
-<<<<<<< HEAD
-            handleComparedDistrictsData={this.handleComparedDistrictsData}
-=======
->>>>>>> Add handleComparedDistrictsData and test coverage
           />
         </section>
         <aside className="sidebar">
