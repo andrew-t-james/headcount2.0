@@ -43,15 +43,29 @@ class App extends Component {
     const { comparedDistricts, districts } = this.state;
     const foundDistrict = districts.find(district => district.location === districtName);
 
-    if (comparedDistricts.length > 1) {
-      const removedDistract = comparedDistricts.shift();
-      removedDistract.selected = false;
+    if (comparedDistricts.indexOf(foundDistrict) > -1) {
+      const copyOfComparedDistricts = [...comparedDistricts];
+      const indexToSplice = copyOfComparedDistricts.indexOf(foundDistrict);
+      copyOfComparedDistricts.splice(indexToSplice, 1);
+
+      this.setState({ comparedDistricts: copyOfComparedDistricts });
+    } else {
+      if (comparedDistricts.length > 1) {
+        const removedDistrict = comparedDistricts.shift();
+        removedDistrict.selected = false;
+      }
+
+      this.setState({
+        comparedDistricts: [...comparedDistricts, foundDistrict]
+      });
     }
-
-    // console.log({district: foundDistrict, foundIt: comparedDistricts.indexOf(foundDistrict)});
-
     foundDistrict.selected = !foundDistrict.selected;
-    this.setState({ comparedDistricts: [...comparedDistricts, foundDistrict] });
+  }
+
+  districtComparisonData = districts => {
+    // console.log(districts);
+    // const districtOne = schoolDistricts.findAverage(districts[0].location);
+    // const districtTwo = schoolDistricts.findAverage(districts[1].location);
   }
 
   render() {

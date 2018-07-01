@@ -35,24 +35,24 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <article
-          onClick={[Function]}
->
+        <article>
           <h2>
                     Adams
           </h2>
-          <p />
+          <p>
+                    0.393
+          </p>
 </article>,
         <p>
           District Data
 </p>,
-        <article
-          onClick={[Function]}
->
+        <article>
           <h2>
                     Adams
           </h2>
-          <p />
+          <p>
+                    0.393
+          </p>
 </article>,
       ],
     },
@@ -67,9 +67,10 @@ ShallowWrapper {
             <h2>
               Adams
 </h2>,
-            <p />,
+            <p>
+              0.393
+</p>,
           ],
-          "onClick": [Function],
         },
         "ref": null,
         "rendered": Array [
@@ -89,10 +90,14 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": undefined,
+              "children": Array [
+                0.393,
+              ],
             },
             "ref": null,
-            "rendered": null,
+            "rendered": Array [
+              0.393,
+            ],
             "type": "p",
           },
         ],
@@ -118,9 +123,10 @@ ShallowWrapper {
             <h2>
               Adams
 </h2>,
-            <p />,
+            <p>
+              0.393
+</p>,
           ],
-          "onClick": [Function],
         },
         "ref": null,
         "rendered": Array [
@@ -140,10 +146,14 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": undefined,
+              "children": Array [
+                0.393,
+              ],
             },
             "ref": null,
-            "rendered": null,
+            "rendered": Array [
+              0.393,
+            ],
             "type": "p",
           },
         ],
@@ -159,24 +169,24 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <article
-            onClick={[Function]}
->
+          <article>
             <h2>
                         Adams
             </h2>
-            <p />
+            <p>
+                        0.393
+            </p>
 </article>,
           <p>
             District Data
 </p>,
-          <article
-            onClick={[Function]}
->
+          <article>
             <h2>
                         Adams
             </h2>
-            <p />
+            <p>
+                        0.393
+            </p>
 </article>,
         ],
       },
@@ -191,9 +201,10 @@ ShallowWrapper {
               <h2>
                 Adams
 </h2>,
-              <p />,
+              <p>
+                0.393
+</p>,
             ],
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Array [
@@ -213,10 +224,14 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": undefined,
+                "children": Array [
+                  0.393,
+                ],
               },
               "ref": null,
-              "rendered": null,
+              "rendered": Array [
+                0.393,
+              ],
               "type": "p",
             },
           ],
@@ -242,9 +257,10 @@ ShallowWrapper {
               <h2>
                 Adams
 </h2>,
-              <p />,
+              <p>
+                0.393
+</p>,
             ],
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Array [
@@ -264,10 +280,14 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": undefined,
+                "children": Array [
+                  0.393,
+                ],
               },
               "ref": null,
-              "rendered": null,
+              "rendered": Array [
+                0.393,
+              ],
               "type": "p",
             },
           ],

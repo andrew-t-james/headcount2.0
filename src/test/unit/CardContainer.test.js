@@ -49,7 +49,6 @@ describe('CardContainer test suite', () => {
     expect(cards).toBe(3);
   });
 
-
   test('should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot();
   });
