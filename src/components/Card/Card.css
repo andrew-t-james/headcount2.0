@@ -1,9 +1,9 @@
 .card {
-  border: 1px solid red;
+  border: 1px solid grey;
   border-radius: 0.4rem;
   box-shadow: 0.8rem 1rem 2rem 0 rgba(46, 61, 73, 0.15);
   cursor: pointer;
-  padding: 2rem 3rem;
+  padding: 2rem 2rem;
   text-align: center;
 }
 
@@ -13,7 +13,6 @@
 
 .card-location {
   font-size: 1.7rem;
-  margin-bottom: 2rem;
 }
 
 .card-list {
@@ -57,4 +56,16 @@
 
 .card-stats-high {
   background-color: var(--primary-green);
+}
+
+.selected {
+ border: 1px solid red;
+}
+
+@media screen and (max-width: 1200px) {
+  .card ul {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+  }
 }
