@@ -5,6 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Card
+    handleSelectedDistrict={[Function]}
     location="The Moon"
     stats={
         Object {
@@ -34,7 +35,7 @@ ShallowWrapper {
           The Moon
 </h2>,
         <ul
-          className="card-list collapsed-list"
+          className="collapsed-list"
 >
           <li
                     className="card-stats"
@@ -170,7 +171,7 @@ ShallowWrapper {
               />
 </li>,
           ],
-          "className": "card-list collapsed-list",
+          "className": "collapsed-list",
         },
         "ref": null,
         "rendered": Array [
@@ -383,7 +384,7 @@ ShallowWrapper {
             The Moon
 </h2>,
           <ul
-            className="card-list collapsed-list"
+            className="collapsed-list"
 >
             <li
                         className="card-stats"
@@ -519,7 +520,7 @@ ShallowWrapper {
                 />
 </li>,
             ],
-            "className": "card-list collapsed-list",
+            "className": "collapsed-list",
           },
           "ref": null,
           "rendered": Array [

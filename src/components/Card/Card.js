@@ -16,7 +16,7 @@ const Card = ({ location, stats, selected, handleSelectedDistrict }) => {
   return (
     <div onClick={() => handleSelectedDistrict(location)} className={`card ${selected ? 'selected' : ''}`}>
       <h2 className="card-location">{location}</h2>
-      <ul className={selected ? 'card-list' : 'card-list collapsed-list'}>
+      <ul className={selected ? 'card-list' : 'collapsed-list'}>
         {districtStats}
       </ul>
     </div>
