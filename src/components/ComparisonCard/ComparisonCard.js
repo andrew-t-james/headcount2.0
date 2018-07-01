@@ -8,7 +8,7 @@ const ComparisonCard = props => {
   if (!comparedDistrictKeys.length) {
     return (
       <div>
-        <h2 className="comparison-card-message">Please Add a district</h2>
+        <h2 className="comparison-card-message">Please Add a District to Compare</h2>
       </div>
     );
   }

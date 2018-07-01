@@ -213,7 +213,7 @@ ShallowWrapper {
       "children": <h2
         className="comparison-card-message"
 >
-        Please Add a district
+        Please Add a District to Compare
 </h2>,
     },
     "ref": null,
@@ -222,11 +222,11 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "Please Add a district",
+        "children": "Please Add a District to Compare",
         "className": "comparison-card-message",
       },
       "ref": null,
-      "rendered": "Please Add a district",
+      "rendered": "Please Add a District to Compare",
       "type": "h2",
     },
     "type": "div",
@@ -240,7 +240,7 @@ ShallowWrapper {
         "children": <h2
           className="comparison-card-message"
 >
-          Please Add a district
+          Please Add a District to Compare
 </h2>,
       },
       "ref": null,
@@ -249,11 +249,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Please Add a district",
+          "children": "Please Add a District to Compare",
           "className": "comparison-card-message",
         },
         "ref": null,
-        "rendered": "Please Add a district",
+        "rendered": "Please Add a District to Compare",
         "type": "h2",
       },
       "type": "div",
