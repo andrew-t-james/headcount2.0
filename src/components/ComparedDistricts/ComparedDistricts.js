@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import ComparisonCard from '../ComparisonCard/ComparisonCard';
 
 const ComparedDistricts = ({ comparedDistricts, comparisonData }) => {
   const displaySelectedCards = comparedDistricts.map(district =>
-    <article key={district.id}>
-      <h2>{district.location}</h2>
-      <p>{Object.values(district.stats).map(value => value)}</p>
-    </article>
+    <ComparisonCard
+      {...district}
+      key={district.id}
+    />
   );
 
   return (

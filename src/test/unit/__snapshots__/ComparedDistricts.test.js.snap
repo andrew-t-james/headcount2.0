@@ -36,23 +36,23 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <article>
-          <h2>
-                    Adams
-          </h2>
-          <p>
-                    0.393
-          </p>
-</article>,
+        <ComparisonCard
+          location="Adams"
+          stats={
+                    Object {
+                              "2004": 0.393,
+                            }
+          }
+/>,
         <p />,
-        <article>
-          <h2>
-                    Adams
-          </h2>
-          <p>
-                    0.393
-          </p>
-</article>,
+        <ComparisonCard
+          location="Adams"
+          stats={
+                    Object {
+                              "2004": 0.393,
+                            }
+          }
+/>,
       ],
     },
     "ref": null,
@@ -60,47 +60,16 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "function",
         "props": Object {
-          "children": Array [
-            <h2>
-              Adams
-</h2>,
-            <p>
-              0.393
-</p>,
-          ],
+          "location": "Adams",
+          "stats": Object {
+            "2004": 0.393,
+          },
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Adams",
-            },
-            "ref": null,
-            "rendered": "Adams",
-            "type": "h2",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                0.393,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              0.393,
-            ],
-            "type": "p",
-          },
-        ],
-        "type": "article",
+        "rendered": null,
+        "type": [Function],
       },
       Object {
         "instance": null,
@@ -116,47 +85,16 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "function",
         "props": Object {
-          "children": Array [
-            <h2>
-              Adams
-</h2>,
-            <p>
-              0.393
-</p>,
-          ],
+          "location": "Adams",
+          "stats": Object {
+            "2004": 0.393,
+          },
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Adams",
-            },
-            "ref": null,
-            "rendered": "Adams",
-            "type": "h2",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                0.393,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              0.393,
-            ],
-            "type": "p",
-          },
-        ],
-        "type": "article",
+        "rendered": null,
+        "type": [Function],
       },
     ],
     "type": "section",
@@ -168,23 +106,23 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <article>
-            <h2>
-                        Adams
-            </h2>
-            <p>
-                        0.393
-            </p>
-</article>,
+          <ComparisonCard
+            location="Adams"
+            stats={
+                        Object {
+                                    "2004": 0.393,
+                                  }
+            }
+/>,
           <p />,
-          <article>
-            <h2>
-                        Adams
-            </h2>
-            <p>
-                        0.393
-            </p>
-</article>,
+          <ComparisonCard
+            location="Adams"
+            stats={
+                        Object {
+                                    "2004": 0.393,
+                                  }
+            }
+/>,
         ],
       },
       "ref": null,
@@ -192,47 +130,16 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "function",
           "props": Object {
-            "children": Array [
-              <h2>
-                Adams
-</h2>,
-              <p>
-                0.393
-</p>,
-            ],
+            "location": "Adams",
+            "stats": Object {
+              "2004": 0.393,
+            },
           },
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Adams",
-              },
-              "ref": null,
-              "rendered": "Adams",
-              "type": "h2",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  0.393,
-                ],
-              },
-              "ref": null,
-              "rendered": Array [
-                0.393,
-              ],
-              "type": "p",
-            },
-          ],
-          "type": "article",
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,
@@ -248,47 +155,16 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "function",
           "props": Object {
-            "children": Array [
-              <h2>
-                Adams
-</h2>,
-              <p>
-                0.393
-</p>,
-            ],
+            "location": "Adams",
+            "stats": Object {
+              "2004": 0.393,
+            },
           },
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Adams",
-              },
-              "ref": null,
-              "rendered": "Adams",
-              "type": "h2",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  0.393,
-                ],
-              },
-              "ref": null,
-              "rendered": Array [
-                0.393,
-              ],
-              "type": "p",
-            },
-          ],
-          "type": "article",
+          "rendered": null,
+          "type": [Function],
         },
       ],
       "type": "section",
