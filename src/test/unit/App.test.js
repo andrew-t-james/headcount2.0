@@ -179,6 +179,36 @@ describe('App unit test suite', () => {
     expect(wrapper.state('comparedDistricts')).toEqual(mockComparedDistricts);
   });
 
+  test('should should not put duplicates in to state', () => {
+    wrapper.setState({
+      districts: [
+        {
+          location: 'COLORADO',
+          stats: {
+            2004: 0.971
+          },
+          selected: false
+        },
+        {
+          location: 'ACADEMY',
+          stats: {
+            2004: 0.323
+          },
+          selected: false
+        }
+      ],
+      comparedDistricts: [],
+      comparisonData: {}
+    });
+    const mockComparedDistricts =[];
+
+    wrapper.instance().districtsComparison = jest.fn();
+    wrapper.instance().handleSelectedDistrict('COLORADO');
+    wrapper.instance().handleSelectedDistrict('COLORADO');
+    expect(wrapper.state('districts')[0].selected).toBe(false);
+    expect(wrapper.state('comparedDistricts')).toEqual(mockComparedDistricts);
+  });
+
   test('should update state when districtsComparison is invoked', () => {
     wrapper.setState({
       districts: [
