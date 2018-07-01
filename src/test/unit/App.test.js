@@ -201,26 +201,7 @@ describe('App unit test suite', () => {
           }
         }
       ],
-      comparedDistricts: [
-        {
-          location: 'COLORADO',
-          selected: true,
-          id: 1,
-          stats: {
-            2004: 0.971,
-            2005: 0.543
-          }
-        },
-        {
-          location: 'ACADEMY 20',
-          selected: true,
-          id: 1,
-          stats: {
-            2004: 0.302,
-            2005: 0.267
-          }
-        }
-      ],
+      comparedDistricts: [],
       comparisonData: {}
     });
     const mockComparisonData ={
