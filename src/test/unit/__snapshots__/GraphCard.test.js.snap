@@ -34,20 +34,20 @@ ShallowWrapper {
                               "datasets": Array [
                                 Object {
                                   "backgroundColor": Array [
-                                    "rgba(255,99,132,0.2)",
+                                    "rgba(235, 77, 75, 0.4)",
                                   ],
                                   "borderColor": Array [
-                                    "rgba(255,99,132,0.2)",
+                                    "rgba(235, 77, 75, 0.4)",
                                   ],
                                   "borderWidth": 1,
                                   "data": Array [
                                     0.353,
                                   ],
                                   "hoverBackgroundColor": Array [
-                                    "rgba(255,99,132,0.2)",
+                                    "rgba(235, 77, 75, 0.4)",
                                   ],
                                   "hoverBorderColor": Array [
-                                    "rgba(255,99,132,0.2)",
+                                    "rgba(235, 77, 75, 0.4)",
                                   ],
                                   "label": "COLORADO",
                                 },
@@ -92,20 +92,20 @@ ShallowWrapper {
             "datasets": Array [
               Object {
                 "backgroundColor": Array [
-                  "rgba(255,99,132,0.2)",
+                  "rgba(235, 77, 75, 0.4)",
                 ],
                 "borderColor": Array [
-                  "rgba(255,99,132,0.2)",
+                  "rgba(235, 77, 75, 0.4)",
                 ],
                 "borderWidth": 1,
                 "data": Array [
                   0.353,
                 ],
                 "hoverBackgroundColor": Array [
-                  "rgba(255,99,132,0.2)",
+                  "rgba(235, 77, 75, 0.4)",
                 ],
                 "hoverBorderColor": Array [
-                  "rgba(255,99,132,0.2)",
+                  "rgba(235, 77, 75, 0.4)",
                 ],
                 "label": "COLORADO",
               },
@@ -145,20 +145,20 @@ ShallowWrapper {
                                     "datasets": Array [
                                       Object {
                                         "backgroundColor": Array [
-                                          "rgba(255,99,132,0.2)",
+                                          "rgba(235, 77, 75, 0.4)",
                                         ],
                                         "borderColor": Array [
-                                          "rgba(255,99,132,0.2)",
+                                          "rgba(235, 77, 75, 0.4)",
                                         ],
                                         "borderWidth": 1,
                                         "data": Array [
                                           0.353,
                                         ],
                                         "hoverBackgroundColor": Array [
-                                          "rgba(255,99,132,0.2)",
+                                          "rgba(235, 77, 75, 0.4)",
                                         ],
                                         "hoverBorderColor": Array [
-                                          "rgba(255,99,132,0.2)",
+                                          "rgba(235, 77, 75, 0.4)",
                                         ],
                                         "label": "COLORADO",
                                       },
@@ -203,20 +203,20 @@ ShallowWrapper {
               "datasets": Array [
                 Object {
                   "backgroundColor": Array [
-                    "rgba(255,99,132,0.2)",
+                    "rgba(235, 77, 75, 0.4)",
                   ],
                   "borderColor": Array [
-                    "rgba(255,99,132,0.2)",
+                    "rgba(235, 77, 75, 0.4)",
                   ],
                   "borderWidth": 1,
                   "data": Array [
                     0.353,
                   ],
                   "hoverBackgroundColor": Array [
-                    "rgba(255,99,132,0.2)",
+                    "rgba(235, 77, 75, 0.4)",
                   ],
                   "hoverBorderColor": Array [
-                    "rgba(255,99,132,0.2)",
+                    "rgba(235, 77, 75, 0.4)",
                   ],
                   "label": "COLORADO",
                 },

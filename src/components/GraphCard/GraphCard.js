@@ -6,7 +6,7 @@ import './GraphCard.css';
 
 const GraphCard = ({ location, stats }) => {
   const setColorsForValues = Object.values(stats)
-    .map(val => val > 0.5 ?'rgba(75,192,192,0.4)' : 'rgba(255,99,132,0.2)');
+    .map(val => val > 0.5 ? 'rgba(39, 174, 96, 0.4)' : 'rgba(235, 77, 75, 0.4)');
   const graphData = {
     labels: Object.keys(stats),
     datasets: [
