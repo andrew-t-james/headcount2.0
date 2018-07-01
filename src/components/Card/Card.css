@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.card:not(:last-of-type) {
+.card {
   margin-bottom: 2rem;
 }
 

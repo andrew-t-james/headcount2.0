@@ -1,20 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ComparisonCard from '../ComparisonCard/ComparisonCard';
+import GraphCard from '../GraphCard/GraphCard';
+
+import './ComparedDistricts.css';
 
 const ComparedDistricts = ({ comparedDistricts, comparisonData }) => {
   const displaySelectedCards = comparedDistricts.map(district =>
-    <ComparisonCard
+    <GraphCard
       {...district}
       key={district.id}
     />
   );
 
   return (
-    <section>
-      {displaySelectedCards[0]}
-      <p>{comparisonData.compared}</p>
-      {displaySelectedCards[1]}
+    <section >
+      <div className="comparison-container">
+        {displaySelectedCards[0]}
+        <h2>{comparisonData.compared}</h2>
+        {displaySelectedCards[1]}
+      </div>
     </section>
   );
 };

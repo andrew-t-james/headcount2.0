@@ -35,78 +35,36 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <ComparisonCard
-          location="Adams"
-          stats={
-                    Object {
-                              "2004": 0.393,
-                            }
-          }
-/>,
-        <p />,
-        <ComparisonCard
-          location="Adams"
-          stats={
-                    Object {
-                              "2004": 0.393,
-                            }
-          }
-/>,
-      ],
+      "children": <div
+        className="comparison-container"
+>
+        <GraphCard
+                location="Adams"
+                stats={
+                        Object {
+                                "2004": 0.393,
+                              }
+                }
+        />
+        <h2 />
+        <GraphCard
+                location="Adams"
+                stats={
+                        Object {
+                                "2004": 0.393,
+                              }
+                }
+        />
+</div>,
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "location": "Adams",
-          "stats": Object {
-            "2004": 0.393,
-          },
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "location": "Adams",
-          "stats": Object {
-            "2004": 0.393,
-          },
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": "section",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <ComparisonCard
+          <GraphCard
             location="Adams"
             stats={
                         Object {
@@ -114,8 +72,8 @@ ShallowWrapper {
                                   }
             }
 />,
-          <p />,
-          <ComparisonCard
+          <h2 />,
+          <GraphCard
             location="Adams"
             stats={
                         Object {
@@ -124,6 +82,7 @@ ShallowWrapper {
             }
 />,
         ],
+        "className": "comparison-container",
       },
       "ref": null,
       "rendered": Array [
@@ -150,7 +109,7 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": "p",
+          "type": "h2",
         },
         Object {
           "instance": null,
@@ -167,6 +126,109 @@ ShallowWrapper {
           "type": [Function],
         },
       ],
+      "type": "div",
+    },
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="comparison-container"
+>
+          <GraphCard
+                    location="Adams"
+                    stats={
+                              Object {
+                                        "2004": 0.393,
+                                      }
+                    }
+          />
+          <h2 />
+          <GraphCard
+                    location="Adams"
+                    stats={
+                              Object {
+                                        "2004": 0.393,
+                                      }
+                    }
+          />
+</div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <GraphCard
+              location="Adams"
+              stats={
+                            Object {
+                                          "2004": 0.393,
+                                        }
+              }
+/>,
+            <h2 />,
+            <GraphCard
+              location="Adams"
+              stats={
+                            Object {
+                                          "2004": 0.393,
+                                        }
+              }
+/>,
+          ],
+          "className": "comparison-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "location": "Adams",
+              "stats": Object {
+                "2004": 0.393,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "location": "Adams",
+              "stats": Object {
+                "2004": 0.393,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
       "type": "section",
     },
   ],
@@ -201,41 +263,24 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        undefined,
-        <p />,
-        undefined,
-      ],
+      "children": <div
+        className="comparison-container"
+>
+        <h2 />
+</div>,
     },
     "ref": null,
-    "rendered": Array [
-      undefined,
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "p",
-      },
-      undefined,
-    ],
-    "type": "section",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
           undefined,
-          <p />,
+          <h2 />,
           undefined,
         ],
+        "className": "comparison-container",
       },
       "ref": null,
       "rendered": Array [
@@ -249,10 +294,57 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": "p",
+          "type": "h2",
         },
         undefined,
       ],
+      "type": "div",
+    },
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="comparison-container"
+>
+          <h2 />
+</div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            undefined,
+            <h2 />,
+            undefined,
+          ],
+          "className": "comparison-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "h2",
+          },
+          undefined,
+        ],
+        "type": "div",
+      },
       "type": "section",
     },
   ],

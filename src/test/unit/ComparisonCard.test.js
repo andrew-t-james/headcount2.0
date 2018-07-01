@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import ComparisonCard from '../../components/ComparisonCard/ComparisonCard';
+import GraphCard from '../../components/GraphCard/GraphCard';
 
-describe('ComparisonCard unit test suite', () => {
+describe('GraphCard unit test suite', () => {
   let wrapper;
   const mockDistrict = {
     location: 'COLORADO',
@@ -11,7 +11,7 @@ describe('ComparisonCard unit test suite', () => {
     }
   };
 
-  beforeEach(() => wrapper = shallow(<ComparisonCard {...mockDistrict}/>));
+  beforeEach(() => wrapper = shallow(<GraphCard {...mockDistrict}/>));
 
   afterEach(() => wrapper.unmount());
 

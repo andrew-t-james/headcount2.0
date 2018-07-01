@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ComparisonCard unit test suite should match snapshot 1`] = `
+exports[`GraphCard unit test suite should match snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ComparisonCard
+  Symbol(enzyme.__unrendered__): <GraphCard
     location="COLORADO"
     stats={
         Object {
@@ -28,10 +28,47 @@ ShallowWrapper {
         <h2>
           COLORADO
 </h2>,
-        <p>
-          0.353
-</p>,
+        <Bar
+          data={
+                    Object {
+                              "datasets": Array [
+                                Object {
+                                  "backgroundColor": Array [
+                                    "rgba(255,99,132,0.2)",
+                                  ],
+                                  "borderColor": Array [
+                                    "rgba(255,99,132,0.2)",
+                                  ],
+                                  "borderWidth": 1,
+                                  "data": Array [
+                                    0.353,
+                                  ],
+                                  "hoverBackgroundColor": Array [
+                                    "rgba(255,99,132,0.2)",
+                                  ],
+                                  "hoverBorderColor": Array [
+                                    "rgba(255,99,132,0.2)",
+                                  ],
+                                  "label": "COLORADO",
+                                },
+                              ],
+                              "labels": Array [
+                                "2005",
+                              ],
+                            }
+          }
+          options={
+                    Object {
+                              "legend": Object {
+                                "display": false,
+                              },
+                              "maintainAspectRatio": false,
+                              "responsive": true,
+                            }
+          }
+/>,
       ],
+      "className": "graph-card",
     },
     "ref": null,
     "rendered": Array [
@@ -49,20 +86,48 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "class",
         "props": Object {
-          "children": Array [
-            0.353,
-          ],
+          "data": Object {
+            "datasets": Array [
+              Object {
+                "backgroundColor": Array [
+                  "rgba(255,99,132,0.2)",
+                ],
+                "borderColor": Array [
+                  "rgba(255,99,132,0.2)",
+                ],
+                "borderWidth": 1,
+                "data": Array [
+                  0.353,
+                ],
+                "hoverBackgroundColor": Array [
+                  "rgba(255,99,132,0.2)",
+                ],
+                "hoverBorderColor": Array [
+                  "rgba(255,99,132,0.2)",
+                ],
+                "label": "COLORADO",
+              },
+            ],
+            "labels": Array [
+              "2005",
+            ],
+          },
+          "options": Object {
+            "legend": Object {
+              "display": false,
+            },
+            "maintainAspectRatio": false,
+            "responsive": true,
+          },
         },
         "ref": null,
-        "rendered": Array [
-          0.353,
-        ],
-        "type": "p",
+        "rendered": null,
+        "type": [Function],
       },
     ],
-    "type": "article",
+    "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -74,10 +139,47 @@ ShallowWrapper {
           <h2>
             COLORADO
 </h2>,
-          <p>
-            0.353
-</p>,
+          <Bar
+            data={
+                        Object {
+                                    "datasets": Array [
+                                      Object {
+                                        "backgroundColor": Array [
+                                          "rgba(255,99,132,0.2)",
+                                        ],
+                                        "borderColor": Array [
+                                          "rgba(255,99,132,0.2)",
+                                        ],
+                                        "borderWidth": 1,
+                                        "data": Array [
+                                          0.353,
+                                        ],
+                                        "hoverBackgroundColor": Array [
+                                          "rgba(255,99,132,0.2)",
+                                        ],
+                                        "hoverBorderColor": Array [
+                                          "rgba(255,99,132,0.2)",
+                                        ],
+                                        "label": "COLORADO",
+                                      },
+                                    ],
+                                    "labels": Array [
+                                      "2005",
+                                    ],
+                                  }
+            }
+            options={
+                        Object {
+                                    "legend": Object {
+                                      "display": false,
+                                    },
+                                    "maintainAspectRatio": false,
+                                    "responsive": true,
+                                  }
+            }
+/>,
         ],
+        "className": "graph-card",
       },
       "ref": null,
       "rendered": Array [
@@ -95,20 +197,48 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
-            "children": Array [
-              0.353,
-            ],
+            "data": Object {
+              "datasets": Array [
+                Object {
+                  "backgroundColor": Array [
+                    "rgba(255,99,132,0.2)",
+                  ],
+                  "borderColor": Array [
+                    "rgba(255,99,132,0.2)",
+                  ],
+                  "borderWidth": 1,
+                  "data": Array [
+                    0.353,
+                  ],
+                  "hoverBackgroundColor": Array [
+                    "rgba(255,99,132,0.2)",
+                  ],
+                  "hoverBorderColor": Array [
+                    "rgba(255,99,132,0.2)",
+                  ],
+                  "label": "COLORADO",
+                },
+              ],
+              "labels": Array [
+                "2005",
+              ],
+            },
+            "options": Object {
+              "legend": Object {
+                "display": false,
+              },
+              "maintainAspectRatio": false,
+              "responsive": true,
+            },
           },
           "ref": null,
-          "rendered": Array [
-            0.353,
-          ],
-          "type": "p",
+          "rendered": null,
+          "type": [Function],
         },
       ],
-      "type": "article",
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {
