@@ -4,6 +4,7 @@ import Card from '../Card/Card';
 
 import './CardContainer.css';
 
+
 const CardContainer = ({ districts, handleComparedDistrictsData}) => {
   const districtData = districts.map(district => {
     return (
