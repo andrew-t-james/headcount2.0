@@ -49,12 +49,6 @@ describe('CardContainer test suite', () => {
     expect(cards).toBe(3);
   });
 
-  test('should be 181 cards created, one for each district', () => {
-    const getDistricts = new DistrictRepository(kinderData);
-    const districts = Object.values(getDistricts.stats);
-    wrapper = shallow(<CardContainer districts={districts} />);
-    expect(wrapper).toMatchSnapshot();
-  });
 
   test('should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot();
