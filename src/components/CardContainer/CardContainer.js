@@ -4,15 +4,14 @@ import Card from '../Card/Card';
 
 import './CardContainer.css';
 
-const CardContainer = ({ districts, addCardToCompare, removeCardFromCompare}) => {
+const CardContainer = ({ districts, handleComparedDistrictsData}) => {
 
   const districtData = districts.map(district => {
     return (
       <Card
         {...district}
         key={district.location}
-        addCard={addCardToCompare}
-        removeCard={removeCardFromCompare}
+        handleComparedDistrictsData={handleComparedDistrictsData}
       />
     );
   });
@@ -32,8 +31,7 @@ const CardContainer = ({ districts, addCardToCompare, removeCardFromCompare}) =>
 
 CardContainer.propTypes = {
   districts: PropTypes.arrayOf(PropTypes.object).isRequired,
-  addCardToCompare: PropTypes.func,
-  removeCardFromCompare: PropTypes.func
+  handleComparedDistrictsData: PropTypes.func
 };
 
 export default CardContainer;

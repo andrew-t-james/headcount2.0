@@ -15,7 +15,24 @@ class App extends Component {
     super();
     this.state = {
       districts: [],
-      comparedDistricts: []
+      comparedDistricts: [
+        {
+          location: 'COLORADO',
+          stats: {
+            2004: 0.24,
+            2005: 0.278,
+            2006: 0.337,
+            2007: 0.395,
+            2008: 0.536,
+            2009: 0.598,
+            2010: 0.64,
+            2011: 0.672,
+            2012: 0.695,
+            2013: 0.703,
+            2014: 0.741
+          }
+        }
+      ]
     };
   }
 
@@ -39,21 +56,22 @@ class App extends Component {
     }
   }
 
-  // handleComparedDistrictsData = (location, stats) => {
-  //   if('card location doesnt exist add it, unless there are already 2 then remove and add') {
-  //     if(this.state.comparedDistricts.lenght < 2) {
-  //       addCardToCompare(location, stats);
-  //     } else {
-  //       const districtObject = {
-  //         location: location,
-  //         stats: stats
-  //       };
-  //       'need to figure out how to update state using push and pop'
-  //     }
-  //   } else {
-  //     removeCardFromCompare(location);
-  //   }
-  // }
+  handleComparedDistrictsData = (location, stats) => {
+    console.log(location)
+    // if('card location doesnt exist add it, unless there are already 2 then remove and add') {
+    //   if(this.state.comparedDistricts.lenght < 2) {
+    //     addCardToCompare(location, stats);
+    //   } else {
+    //     const districtObject = {
+    //       location: location,
+    //       stats: stats
+    //     };
+    //     'need to figure out how to update state using push and pop'
+    //   }
+    // } else {
+    //   removeCardFromCompare(location);
+    // }
+  }
 
   addCardToCompare = (location, stats) => {
     const { comparedDistricts } = this.state;
@@ -62,7 +80,6 @@ class App extends Component {
       location,
       stats
     };
-
     this.setState({
       comparedDistricts: [...comparedDistricts, districtObject]
     });
@@ -70,7 +87,6 @@ class App extends Component {
 
   removeCardFromCompare = location => {
     const comparedDistricts = this.state.comparedDistricts.filter( card => location !== card.location);
-
     this.setState({ comparedDistricts });
   }
 
@@ -85,8 +101,7 @@ class App extends Component {
         <section className="compare-container">
           <ComparedDistricts
             comparedDistricts={comparedDistricts}
-            addCardToCompare={this.addCardToCompare}
-            removeCardFromCompare={this.removeCardFromCompare}
+            handleComparedDistrictsData={this.handleComparedDistrictsData}
           />
         </section>
         <aside className="sidebar">
@@ -95,8 +110,7 @@ class App extends Component {
           />
           <CardContainer
             districts={districts}
-            addCardToCompare={this.addCardToCompare}
-            removeCardFromCompare={this.removeCardFromCompare}
+            handleComparedDistrictsData={this.handleComparedDistrictsData}
           />
         </aside>
       </main>
