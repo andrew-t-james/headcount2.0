@@ -5,13 +5,13 @@ import Card from '../Card/Card';
 import './CardContainer.css';
 
 
-const CardContainer = ({ districts, handleComparedDistrictsData}) => {
+const CardContainer = ({ districts, handleSelectedDistrict}) => {
   const districtData = districts.map(district => {
     return (
       <Card
         {...district}
         key={district.id}
-        handleComparedDistrictsData={handleComparedDistrictsData}
+        handleSelectedDistrict={handleSelectedDistrict}
       />
     );
   });
@@ -35,7 +35,7 @@ const CardContainer = ({ districts, handleComparedDistrictsData}) => {
 
 CardContainer.propTypes = {
   districts: PropTypes.arrayOf(PropTypes.object).isRequired,
-  handleComparedDistrictsData: PropTypes.func
+  handleSelectedDistrict: PropTypes.func
 };
 
 export default CardContainer;

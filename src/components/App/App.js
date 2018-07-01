@@ -15,7 +15,8 @@ class App extends Component {
     super();
     this.state = {
       districts: [],
-      comparedDistricts: []
+      comparedDistricts: [],
+      comparisonData: {}
     };
   }
 
@@ -39,7 +40,7 @@ class App extends Component {
     }
   }
 
-  handleComparedDistrictsData = districtName => {
+  handleSelectedDistrict = districtName => {
     const { comparedDistricts, districts } = this.state;
     const foundDistrict = districts.find(district => district.location === districtName);
 
@@ -59,17 +60,28 @@ class App extends Component {
         comparedDistricts: [...comparedDistricts, foundDistrict]
       });
     }
+
     foundDistrict.selected = !foundDistrict.selected;
+    this.districtsComparison();
   }
 
-  districtComparisonData = districts => {
-    // console.log(districts);
-    // const districtOne = schoolDistricts.findAverage(districts[0].location);
-    // const districtTwo = schoolDistricts.findAverage(districts[1].location);
+  districtsComparison = () => {
+    const { districts } = this.state;
+    const selectedDistricts = districts.filter(district => district.selected);
+
+    if (selectedDistricts[0] && selectedDistricts[1]) {
+      const comparisonData = schoolDistricts.compareDistrictAverages(
+        selectedDistricts[0].location, selectedDistricts[1].location
+      );
+
+      this.setState({ comparisonData });
+    } else {
+      this.setState({ comparisonData: {} });
+    }
   }
 
   render() {
-    const { districts, comparedDistricts } = this.state;
+    const { districts, comparedDistricts, comparisonData } = this.state;
 
     return (
       <main className="grid-container">
@@ -79,6 +91,7 @@ class App extends Component {
         <section className="compare-container">
           <ComparedDistricts
             comparedDistricts={comparedDistricts}
+            comparisonData={comparisonData}
           />
         </section>
         <aside className="sidebar">
@@ -87,7 +100,7 @@ class App extends Component {
           />
           <CardContainer
             districts={districts}
-            handleComparedDistrictsData={this.handleComparedDistrictsData}
+            handleSelectedDistrict={this.handleSelectedDistrict}
           />
         </aside>
       </main>

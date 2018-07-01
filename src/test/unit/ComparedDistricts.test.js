@@ -19,11 +19,27 @@ describe('ComparedDistrict unit test suite', () => {
     }
   ];
 
-  beforeEach(() => wrapper = shallow(<ComparedDistricts comparedDistricts={mockDistricts}/>));
+  const mockComparisonData = {};
+
+  beforeEach(() => wrapper = shallow(
+    <ComparedDistricts
+      comparedDistricts={mockDistricts}
+      comparisonData={mockComparisonData}
+    />
+  ));
 
   afterEach(() => wrapper.unmount());
 
   test('should match snapshot', () => {
+    expect(wrapper).toMatchSnapshot();
+  });
+  test('should match snapshot when no props passed', () => {
+    wrapper = shallow(
+      <ComparedDistricts
+        comparedDistricts={[]}
+        comparisonData={{}}
+      />
+    );
     expect(wrapper).toMatchSnapshot();
   });
 });

@@ -1,8 +1,6 @@
 import React from 'react';
 import CardContainer from '../../components/CardContainer/CardContainer';
 import Card from '../../components/Card/Card';
-import DistrictRepository from '../../helper';
-import kinderData from '../../data/kindergartners_in_full_day_program';
 import { shallow } from 'enzyme';
 
 describe('CardContainer test suite', () => {

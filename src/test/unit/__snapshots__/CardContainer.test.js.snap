@@ -206,7 +206,7 @@ ShallowWrapper {
           className="card-container"
 >
           <Card
-                    handleComparedDistrictsData={undefined}
+                    handleSelectedDistrict={undefined}
                     id={1}
                     location="The Moon"
                     stats={
@@ -219,7 +219,7 @@ ShallowWrapper {
                     }
           />
           <Card
-                    handleComparedDistrictsData={undefined}
+                    handleSelectedDistrict={undefined}
                     id={2}
                     location="The Sun"
                     stats={
@@ -232,7 +232,7 @@ ShallowWrapper {
                     }
           />
           <Card
-                    handleComparedDistrictsData={undefined}
+                    handleSelectedDistrict={undefined}
                     id={3}
                     location="Jupiter"
                     stats={
@@ -257,7 +257,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <Card
-              handleComparedDistrictsData={undefined}
+              handleSelectedDistrict={undefined}
               id={1}
               location="The Moon"
               stats={
@@ -270,7 +270,7 @@ ShallowWrapper {
               }
 />,
             <Card
-              handleComparedDistrictsData={undefined}
+              handleSelectedDistrict={undefined}
               id={2}
               location="The Sun"
               stats={
@@ -283,7 +283,7 @@ ShallowWrapper {
               }
 />,
             <Card
-              handleComparedDistrictsData={undefined}
+              handleSelectedDistrict={undefined}
               id={3}
               location="Jupiter"
               stats={
@@ -305,7 +305,7 @@ ShallowWrapper {
             "key": "1",
             "nodeType": "function",
             "props": Object {
-              "handleComparedDistrictsData": undefined,
+              "handleSelectedDistrict": undefined,
               "id": 1,
               "location": "The Moon",
               "stats": Object {
@@ -324,7 +324,7 @@ ShallowWrapper {
             "key": "2",
             "nodeType": "function",
             "props": Object {
-              "handleComparedDistrictsData": undefined,
+              "handleSelectedDistrict": undefined,
               "id": 2,
               "location": "The Sun",
               "stats": Object {
@@ -343,7 +343,7 @@ ShallowWrapper {
             "key": "3",
             "nodeType": "function",
             "props": Object {
-              "handleComparedDistrictsData": undefined,
+              "handleSelectedDistrict": undefined,
               "id": 3,
               "location": "Jupiter",
               "stats": Object {
@@ -375,7 +375,7 @@ ShallowWrapper {
             className="card-container"
 >
             <Card
-                        handleComparedDistrictsData={undefined}
+                        handleSelectedDistrict={undefined}
                         id={1}
                         location="The Moon"
                         stats={
@@ -388,7 +388,7 @@ ShallowWrapper {
                         }
             />
             <Card
-                        handleComparedDistrictsData={undefined}
+                        handleSelectedDistrict={undefined}
                         id={2}
                         location="The Sun"
                         stats={
@@ -401,7 +401,7 @@ ShallowWrapper {
                         }
             />
             <Card
-                        handleComparedDistrictsData={undefined}
+                        handleSelectedDistrict={undefined}
                         id={3}
                         location="Jupiter"
                         stats={
@@ -426,7 +426,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <Card
-                handleComparedDistrictsData={undefined}
+                handleSelectedDistrict={undefined}
                 id={1}
                 location="The Moon"
                 stats={
@@ -439,7 +439,7 @@ ShallowWrapper {
                 }
 />,
               <Card
-                handleComparedDistrictsData={undefined}
+                handleSelectedDistrict={undefined}
                 id={2}
                 location="The Sun"
                 stats={
@@ -452,7 +452,7 @@ ShallowWrapper {
                 }
 />,
               <Card
-                handleComparedDistrictsData={undefined}
+                handleSelectedDistrict={undefined}
                 id={3}
                 location="Jupiter"
                 stats={
@@ -474,7 +474,7 @@ ShallowWrapper {
               "key": "1",
               "nodeType": "function",
               "props": Object {
-                "handleComparedDistrictsData": undefined,
+                "handleSelectedDistrict": undefined,
                 "id": 1,
                 "location": "The Moon",
                 "stats": Object {
@@ -493,7 +493,7 @@ ShallowWrapper {
               "key": "2",
               "nodeType": "function",
               "props": Object {
-                "handleComparedDistrictsData": undefined,
+                "handleSelectedDistrict": undefined,
                 "id": 2,
                 "location": "The Sun",
                 "stats": Object {
@@ -512,7 +512,7 @@ ShallowWrapper {
               "key": "3",
               "nodeType": "function",
               "props": Object {
-                "handleComparedDistrictsData": undefined,
+                "handleSelectedDistrict": undefined,
                 "id": 3,
                 "location": "Jupiter",
                 "stats": Object {

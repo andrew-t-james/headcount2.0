@@ -63,7 +63,7 @@ export default class DistrictRepository {
   findAverage(searchCriteria) {
     const sanitizedLocation = searchCriteria.toUpperCase();
     const statsValues = Object.values(this.stats[sanitizedLocation].stats);
-    const sum = statsValues.reduce((acc, value) => acc += value, 0);
+    const sum = statsValues.reduce((acc, value) => acc + value);
     const average = Math.round(1000 * (sum / statsValues.length)) / 1000;
     return average;
   }

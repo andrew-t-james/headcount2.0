@@ -1,22 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ComparedDistricts = ({ comparedDistricts }) => {
-  // comparedDistricts = [
-  //   {
-  //     location: 'hellow',
-  //     stats: {
-  //       2000: 0.292
-  //     }
-  //   },
-  //   {
-  //     location: 'he',
-  //     stats: {
-  //       2000: 0.123
-  //     }
-  //   }
-  // ];
-
+const ComparedDistricts = ({ comparedDistricts, comparisonData }) => {
   const displaySelectedCards = comparedDistricts.map(district =>
     <article key={district.id}>
       <h2>{district.location}</h2>
@@ -27,7 +12,7 @@ const ComparedDistricts = ({ comparedDistricts }) => {
   return (
     <section>
       {displaySelectedCards[0]}
-      <p>District Data</p>
+      <p>{comparisonData.compared}</p>
       {displaySelectedCards[1]}
     </section>
   );
@@ -35,7 +20,7 @@ const ComparedDistricts = ({ comparedDistricts }) => {
 
 ComparedDistricts.propTypes = {
   comparedDistricts: PropTypes.arrayOf(PropTypes.object).isRequired,
-  handleComparedDistrictsData: PropTypes.func
+  comparisonData: PropTypes.object
 };
 
 export default ComparedDistricts;

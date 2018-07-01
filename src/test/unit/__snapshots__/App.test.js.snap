@@ -30,6 +30,7 @@ ShallowWrapper {
 >
           <ComparedDistricts
                     comparedDistricts={Array []}
+                    comparisonData={Object {}}
           />
 </section>,
         <aside
@@ -40,7 +41,7 @@ ShallowWrapper {
           />
           <CardContainer
                     districts={Array []}
-                    handleComparedDistrictsData={[Function]}
+                    handleSelectedDistrict={[Function]}
           />
 </aside>,
       ],
@@ -79,6 +80,7 @@ ShallowWrapper {
         "props": Object {
           "children": <ComparedDistricts
             comparedDistricts={Array []}
+            comparisonData={Object {}}
 />,
           "className": "compare-container",
         },
@@ -89,6 +91,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "comparedDistricts": Array [],
+            "comparisonData": Object {},
           },
           "ref": null,
           "rendered": null,
@@ -107,7 +110,7 @@ ShallowWrapper {
 />,
             <CardContainer
               districts={Array []}
-              handleComparedDistrictsData={[Function]}
+              handleSelectedDistrict={[Function]}
 />,
           ],
           "className": "sidebar",
@@ -131,7 +134,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "districts": Array [],
-              "handleComparedDistrictsData": [Function],
+              "handleSelectedDistrict": [Function],
             },
             "ref": null,
             "rendered": null,
@@ -162,6 +165,7 @@ ShallowWrapper {
 >
             <ComparedDistricts
                         comparedDistricts={Array []}
+                        comparisonData={Object {}}
             />
 </section>,
           <aside
@@ -172,7 +176,7 @@ ShallowWrapper {
             />
             <CardContainer
                         districts={Array []}
-                        handleComparedDistrictsData={[Function]}
+                        handleSelectedDistrict={[Function]}
             />
 </aside>,
         ],
@@ -211,6 +215,7 @@ ShallowWrapper {
           "props": Object {
             "children": <ComparedDistricts
               comparedDistricts={Array []}
+              comparisonData={Object {}}
 />,
             "className": "compare-container",
           },
@@ -221,6 +226,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "comparedDistricts": Array [],
+              "comparisonData": Object {},
             },
             "ref": null,
             "rendered": null,
@@ -239,7 +245,7 @@ ShallowWrapper {
 />,
               <CardContainer
                 districts={Array []}
-                handleComparedDistrictsData={[Function]}
+                handleSelectedDistrict={[Function]}
 />,
             ],
             "className": "sidebar",
@@ -263,7 +269,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "districts": Array [],
-                "handleComparedDistrictsData": [Function],
+                "handleSelectedDistrict": [Function],
               },
               "ref": null,
               "rendered": null,
@@ -317,6 +323,7 @@ ShallowWrapper {
 >
           <ComparedDistricts
                     comparedDistricts={Array []}
+                    comparisonData={Object {}}
           />
 </section>,
         <aside
@@ -327,7 +334,7 @@ ShallowWrapper {
           />
           <CardContainer
                     districts={Array []}
-                    handleComparedDistrictsData={[Function]}
+                    handleSelectedDistrict={[Function]}
           />
 </aside>,
       ],
@@ -366,6 +373,7 @@ ShallowWrapper {
         "props": Object {
           "children": <ComparedDistricts
             comparedDistricts={Array []}
+            comparisonData={Object {}}
 />,
           "className": "compare-container",
         },
@@ -376,6 +384,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "comparedDistricts": Array [],
+            "comparisonData": Object {},
           },
           "ref": null,
           "rendered": null,
@@ -394,7 +403,7 @@ ShallowWrapper {
 />,
             <CardContainer
               districts={Array []}
-              handleComparedDistrictsData={[Function]}
+              handleSelectedDistrict={[Function]}
 />,
           ],
           "className": "sidebar",
@@ -418,7 +427,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "districts": Array [],
-              "handleComparedDistrictsData": [Function],
+              "handleSelectedDistrict": [Function],
             },
             "ref": null,
             "rendered": null,
@@ -449,6 +458,7 @@ ShallowWrapper {
 >
             <ComparedDistricts
                         comparedDistricts={Array []}
+                        comparisonData={Object {}}
             />
 </section>,
           <aside
@@ -459,7 +469,7 @@ ShallowWrapper {
             />
             <CardContainer
                         districts={Array []}
-                        handleComparedDistrictsData={[Function]}
+                        handleSelectedDistrict={[Function]}
             />
 </aside>,
         ],
@@ -498,6 +508,7 @@ ShallowWrapper {
           "props": Object {
             "children": <ComparedDistricts
               comparedDistricts={Array []}
+              comparisonData={Object {}}
 />,
             "className": "compare-container",
           },
@@ -508,6 +519,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "comparedDistricts": Array [],
+              "comparisonData": Object {},
             },
             "ref": null,
             "rendered": null,
@@ -526,7 +538,7 @@ ShallowWrapper {
 />,
               <CardContainer
                 districts={Array []}
-                handleComparedDistrictsData={[Function]}
+                handleSelectedDistrict={[Function]}
 />,
             ],
             "className": "sidebar",
@@ -550,7 +562,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "districts": Array [],
-                "handleComparedDistrictsData": [Function],
+                "handleSelectedDistrict": [Function],
               },
               "ref": null,
               "rendered": null,
@@ -604,6 +616,7 @@ ShallowWrapper {
 >
           <ComparedDistricts
                     comparedDistricts={Array []}
+                    comparisonData={Object {}}
           />
 </section>,
         <aside
@@ -614,7 +627,7 @@ ShallowWrapper {
           />
           <CardContainer
                     districts={Array []}
-                    handleComparedDistrictsData={[Function]}
+                    handleSelectedDistrict={[Function]}
           />
 </aside>,
       ],
@@ -653,6 +666,7 @@ ShallowWrapper {
         "props": Object {
           "children": <ComparedDistricts
             comparedDistricts={Array []}
+            comparisonData={Object {}}
 />,
           "className": "compare-container",
         },
@@ -663,6 +677,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "comparedDistricts": Array [],
+            "comparisonData": Object {},
           },
           "ref": null,
           "rendered": null,
@@ -681,7 +696,7 @@ ShallowWrapper {
 />,
             <CardContainer
               districts={Array []}
-              handleComparedDistrictsData={[Function]}
+              handleSelectedDistrict={[Function]}
 />,
           ],
           "className": "sidebar",
@@ -705,7 +720,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "districts": Array [],
-              "handleComparedDistrictsData": [Function],
+              "handleSelectedDistrict": [Function],
             },
             "ref": null,
             "rendered": null,
@@ -736,6 +751,7 @@ ShallowWrapper {
 >
             <ComparedDistricts
                         comparedDistricts={Array []}
+                        comparisonData={Object {}}
             />
 </section>,
           <aside
@@ -746,7 +762,7 @@ ShallowWrapper {
             />
             <CardContainer
                         districts={Array []}
-                        handleComparedDistrictsData={[Function]}
+                        handleSelectedDistrict={[Function]}
             />
 </aside>,
         ],
@@ -785,6 +801,7 @@ ShallowWrapper {
           "props": Object {
             "children": <ComparedDistricts
               comparedDistricts={Array []}
+              comparisonData={Object {}}
 />,
             "className": "compare-container",
           },
@@ -795,6 +812,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "comparedDistricts": Array [],
+              "comparisonData": Object {},
             },
             "ref": null,
             "rendered": null,
@@ -813,7 +831,7 @@ ShallowWrapper {
 />,
               <CardContainer
                 districts={Array []}
-                handleComparedDistrictsData={[Function]}
+                handleSelectedDistrict={[Function]}
 />,
             ],
             "className": "sidebar",
@@ -837,7 +855,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "districts": Array [],
-                "handleComparedDistrictsData": [Function],
+                "handleSelectedDistrict": [Function],
               },
               "ref": null,
               "rendered": null,

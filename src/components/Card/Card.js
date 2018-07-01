@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import './Card.css';
 
-const Card = ({ location, stats, selected, handleComparedDistrictsData }) => {
+const Card = ({ location, stats, selected, handleSelectedDistrict }) => {
   const districtStats = Object.keys(stats).map(stat =>
     <li className="card-stats" key={stat}>
       <span className="card-stats-year">{stat}</span>
@@ -14,7 +14,7 @@ const Card = ({ location, stats, selected, handleComparedDistrictsData }) => {
   );
 
   return (
-    <div onClick={() => handleComparedDistrictsData(location)} className="card">
+    <div onClick={() => handleSelectedDistrict(location)} className="card">
       <h2 className="card-location">{location}</h2>
       <ul className={selected ? 'card-list' : 'card-list collapsed-list'}>
         {districtStats}
@@ -27,7 +27,7 @@ Card.propTypes = {
   location: PropTypes.string.isRequired,
   stats: PropTypes.object.isRequired,
   selected: PropTypes.bool,
-  handleComparedDistrictsData: PropTypes.func
+  handleSelectedDistrict: PropTypes.func
 };
 
 export default Card;
