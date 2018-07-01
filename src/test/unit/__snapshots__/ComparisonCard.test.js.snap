@@ -4,13 +4,10 @@ exports[`GraphCard unit test suite should match snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <GraphCard
-    location="COLORADO"
-    stats={
-        Object {
-            "2005": 0.353,
-          }
-    }
+  Symbol(enzyme.__unrendered__): <ComparisonCard
+    ADAMS 20={0.294}
+    COLORADO={0.234}
+    compared={1.345}
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -26,49 +23,20 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h2>
-          COLORADO
+          ADAMS 20
+           : 
+          0.294
 </h2>,
-        <Bar
-          data={
-                    Object {
-                              "datasets": Array [
-                                Object {
-                                  "backgroundColor": Array [
-                                    "rgba(255,99,132,0.2)",
-                                  ],
-                                  "borderColor": Array [
-                                    "rgba(255,99,132,0.2)",
-                                  ],
-                                  "borderWidth": 1,
-                                  "data": Array [
-                                    0.353,
-                                  ],
-                                  "hoverBackgroundColor": Array [
-                                    "rgba(255,99,132,0.2)",
-                                  ],
-                                  "hoverBorderColor": Array [
-                                    "rgba(255,99,132,0.2)",
-                                  ],
-                                  "label": "COLORADO",
-                                },
-                              ],
-                              "labels": Array [
-                                "2005",
-                              ],
-                            }
-          }
-          options={
-                    Object {
-                              "legend": Object {
-                                "display": false,
-                              },
-                              "maintainAspectRatio": false,
-                              "responsive": true,
-                            }
-          }
-/>,
+        <h2>
+          Comparison : 
+          1.345
+</h2>,
+        <h2>
+          COLORADO
+           : 
+          0.234
+</h2>,
       ],
-      "className": "graph-card",
     },
     "ref": null,
     "rendered": Array [
@@ -77,54 +45,55 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "COLORADO",
+          "children": Array [
+            "ADAMS 20",
+            " : ",
+            0.294,
+          ],
         },
         "ref": null,
-        "rendered": "COLORADO",
+        "rendered": Array [
+          "ADAMS 20",
+          " : ",
+          0.294,
+        ],
         "type": "h2",
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "host",
         "props": Object {
-          "data": Object {
-            "datasets": Array [
-              Object {
-                "backgroundColor": Array [
-                  "rgba(255,99,132,0.2)",
-                ],
-                "borderColor": Array [
-                  "rgba(255,99,132,0.2)",
-                ],
-                "borderWidth": 1,
-                "data": Array [
-                  0.353,
-                ],
-                "hoverBackgroundColor": Array [
-                  "rgba(255,99,132,0.2)",
-                ],
-                "hoverBorderColor": Array [
-                  "rgba(255,99,132,0.2)",
-                ],
-                "label": "COLORADO",
-              },
-            ],
-            "labels": Array [
-              "2005",
-            ],
-          },
-          "options": Object {
-            "legend": Object {
-              "display": false,
-            },
-            "maintainAspectRatio": false,
-            "responsive": true,
-          },
+          "children": Array [
+            "Comparison : ",
+            1.345,
+          ],
         },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": Array [
+          "Comparison : ",
+          1.345,
+        ],
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "COLORADO",
+            " : ",
+            0.234,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "COLORADO",
+          " : ",
+          0.234,
+        ],
+        "type": "h2",
       },
     ],
     "type": "div",
@@ -137,49 +106,20 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h2>
-            COLORADO
+            ADAMS 20
+             : 
+            0.294
 </h2>,
-          <Bar
-            data={
-                        Object {
-                                    "datasets": Array [
-                                      Object {
-                                        "backgroundColor": Array [
-                                          "rgba(255,99,132,0.2)",
-                                        ],
-                                        "borderColor": Array [
-                                          "rgba(255,99,132,0.2)",
-                                        ],
-                                        "borderWidth": 1,
-                                        "data": Array [
-                                          0.353,
-                                        ],
-                                        "hoverBackgroundColor": Array [
-                                          "rgba(255,99,132,0.2)",
-                                        ],
-                                        "hoverBorderColor": Array [
-                                          "rgba(255,99,132,0.2)",
-                                        ],
-                                        "label": "COLORADO",
-                                      },
-                                    ],
-                                    "labels": Array [
-                                      "2005",
-                                    ],
-                                  }
-            }
-            options={
-                        Object {
-                                    "legend": Object {
-                                      "display": false,
-                                    },
-                                    "maintainAspectRatio": false,
-                                    "responsive": true,
-                                  }
-            }
-/>,
+          <h2>
+            Comparison : 
+            1.345
+</h2>,
+          <h2>
+            COLORADO
+             : 
+            0.234
+</h2>,
         ],
-        "className": "graph-card",
       },
       "ref": null,
       "rendered": Array [
@@ -188,55 +128,119 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "COLORADO",
+            "children": Array [
+              "ADAMS 20",
+              " : ",
+              0.294,
+            ],
           },
           "ref": null,
-          "rendered": "COLORADO",
+          "rendered": Array [
+            "ADAMS 20",
+            " : ",
+            0.294,
+          ],
           "type": "h2",
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "host",
           "props": Object {
-            "data": Object {
-              "datasets": Array [
-                Object {
-                  "backgroundColor": Array [
-                    "rgba(255,99,132,0.2)",
-                  ],
-                  "borderColor": Array [
-                    "rgba(255,99,132,0.2)",
-                  ],
-                  "borderWidth": 1,
-                  "data": Array [
-                    0.353,
-                  ],
-                  "hoverBackgroundColor": Array [
-                    "rgba(255,99,132,0.2)",
-                  ],
-                  "hoverBorderColor": Array [
-                    "rgba(255,99,132,0.2)",
-                  ],
-                  "label": "COLORADO",
-                },
-              ],
-              "labels": Array [
-                "2005",
-              ],
-            },
-            "options": Object {
-              "legend": Object {
-                "display": false,
-              },
-              "maintainAspectRatio": false,
-              "responsive": true,
-            },
+            "children": Array [
+              "Comparison : ",
+              1.345,
+            ],
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Array [
+            "Comparison : ",
+            1.345,
+          ],
+          "type": "h2",
         },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "COLORADO",
+              " : ",
+              0.234,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "COLORADO",
+            " : ",
+            0.234,
+          ],
+          "type": "h2",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
+
+exports[`GraphCard unit test suite should match snapshot when no data is passed 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ComparisonCard />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        undefined,
+        undefined,
+        undefined,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      undefined,
+      undefined,
+      undefined,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          undefined,
+          undefined,
+          undefined,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        undefined,
+        undefined,
       ],
       "type": "div",
     },

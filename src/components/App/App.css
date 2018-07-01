@@ -25,7 +25,7 @@
   padding: 2rem;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1345px) {
   .grid-container {
     display: grid;
     grid-template-areas: "header header header header" "sidebar sidebar sidebar sidebar" "compare-container compare-container compare-container compare-container";

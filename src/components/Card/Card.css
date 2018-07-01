@@ -62,7 +62,7 @@
  border: 1px solid red;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1345px) {
   .card ul {
     max-height: 0;
     overflow: hidden;

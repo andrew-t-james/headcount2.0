@@ -1,21 +1,26 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import GraphCard from '../../components/GraphCard/GraphCard';
+import ComparisonCard from '../../components/ComparisonCard/ComparisonCard';
 
 describe('GraphCard unit test suite', () => {
   let wrapper;
   const mockDistrict = {
-    location: 'COLORADO',
-    stats: {
-      2005: 0.353
-    }
+    'ADAMS 20': 0.294,
+    'COLORADO': 0.234,
+    compared: 1.345
   };
 
-  beforeEach(() => wrapper = shallow(<GraphCard {...mockDistrict}/>));
+  beforeEach(() => wrapper = shallow(<ComparisonCard {...mockDistrict}/>));
 
   afterEach(() => wrapper.unmount());
 
   test('should match snapshot', () => {
     expect(wrapper).toMatchSnapshot();
   });
+
+  test('should match snapshot when no data is passed', () => {
+    wrapper = shallow(<ComparisonCard {...{}} />);
+    expect(wrapper).toMatchSnapshot();
+  });
+
 });

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import GraphCard from '../GraphCard/GraphCard';
+import ComparisonCard from '../ComparisonCard/ComparisonCard';
 
 import './ComparedDistricts.css';
 
@@ -16,7 +17,9 @@ const ComparedDistricts = ({ comparedDistricts, comparisonData }) => {
     <section >
       <div className="comparison-container">
         {displaySelectedCards[0]}
-        <h2>{comparisonData.compared}</h2>
+        <ComparisonCard
+          {...comparisonData}
+        />
         {displaySelectedCards[1]}
       </div>
     </section>

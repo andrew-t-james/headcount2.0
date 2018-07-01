@@ -46,7 +46,7 @@ ShallowWrapper {
                               }
                 }
         />
-        <h2 />
+        <ComparisonCard />
         <GraphCard
                 location="Adams"
                 stats={
@@ -72,7 +72,7 @@ ShallowWrapper {
                                   }
             }
 />,
-          <h2 />,
+          <ComparisonCard />,
           <GraphCard
             location="Adams"
             stats={
@@ -103,13 +103,11 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": undefined,
-          },
+          "nodeType": "function",
+          "props": Object {},
           "ref": null,
           "rendered": null,
-          "type": "h2",
+          "type": [Function],
         },
         Object {
           "instance": null,
@@ -147,7 +145,7 @@ ShallowWrapper {
                                       }
                     }
           />
-          <h2 />
+          <ComparisonCard />
           <GraphCard
                     location="Adams"
                     stats={
@@ -173,7 +171,7 @@ ShallowWrapper {
                                         }
               }
 />,
-            <h2 />,
+            <ComparisonCard />,
             <GraphCard
               location="Adams"
               stats={
@@ -204,13 +202,11 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": undefined,
-            },
+            "nodeType": "function",
+            "props": Object {},
             "ref": null,
             "rendered": null,
-            "type": "h2",
+            "type": [Function],
           },
           Object {
             "instance": null,
@@ -266,7 +262,7 @@ ShallowWrapper {
       "children": <div
         className="comparison-container"
 >
-        <h2 />
+        <ComparisonCard />
 </div>,
     },
     "ref": null,
@@ -277,7 +273,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           undefined,
-          <h2 />,
+          <ComparisonCard />,
           undefined,
         ],
         "className": "comparison-container",
@@ -288,13 +284,11 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": undefined,
-          },
+          "nodeType": "function",
+          "props": Object {},
           "ref": null,
           "rendered": null,
-          "type": "h2",
+          "type": [Function],
         },
         undefined,
       ],
@@ -311,7 +305,7 @@ ShallowWrapper {
         "children": <div
           className="comparison-container"
 >
-          <h2 />
+          <ComparisonCard />
 </div>,
       },
       "ref": null,
@@ -322,7 +316,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             undefined,
-            <h2 />,
+            <ComparisonCard />,
             undefined,
           ],
           "className": "comparison-container",
@@ -333,13 +327,11 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": undefined,
-            },
+            "nodeType": "function",
+            "props": Object {},
             "ref": null,
             "rendered": null,
-            "type": "h2",
+            "type": [Function],
           },
           undefined,
         ],
