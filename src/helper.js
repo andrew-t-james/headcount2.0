@@ -20,7 +20,8 @@ export default class DistrictRepository {
           stats: {
             ...arrangedSchools[sanitizedLocation].stats,
             [school.TimeFrame]: roundedPercentage
-          }
+          },
+          selected: false
         };
       }
 
@@ -33,10 +34,11 @@ export default class DistrictRepository {
     if (searchCriteria) {
       const sanitizedLocation = searchCriteria.toUpperCase();
       if (this.stats[sanitizedLocation]) {
-        const { location, stats } = this.stats[sanitizedLocation];
+        const { location, stats, selected } = this.stats[sanitizedLocation];
         return {
           location,
-          stats
+          stats,
+          selected
         };
       }
     }

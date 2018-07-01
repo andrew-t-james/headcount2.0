@@ -29,7 +29,7 @@ class App extends Component {
     return districts;
   }
 
-  filterDistricts = (query) => {
+  filterDistricts = query => {
     const queriedDistrict = schoolDistricts.findAllMatches(query);
 
     if (query === '') {
@@ -39,39 +39,17 @@ class App extends Component {
     }
   }
 
-  // handleComparedDistrictsData = (location, stats) => {
-  //   if('card location doesnt exist add it, unless there are already 2 then remove and add') {
-  //     if(this.state.comparedDistricts.lenght < 2) {
-  //       addCardToCompare(location, stats);
-  //     } else {
-  //       const districtObject = {
-  //         location: location,
-  //         stats: stats
-  //       };
-  //       'need to figure out how to update state using push and pop'
-  //     }
-  //   } else {
-  //     removeCardFromCompare(location);
-  //   }
-  // }
+  handleComparedDistrictsData = districtName => {
+    const { comparedDistricts, districts } = this.state;
+    const foundDistrict = districts.find(district => district.location === districtName);
 
-  addCardToCompare = (location, stats) => {
-    const { comparedDistricts } = this.state;
+    if (comparedDistricts.length > 1) {
+      const removedDistract = comparedDistricts.shift();
+      removedDistract.selected = false;
+    }
 
-    const districtObject = {
-      location,
-      stats
-    };
-
-    this.setState({
-      comparedDistricts: [...comparedDistricts, districtObject]
-    });
-  }
-
-  removeCardFromCompare = location => {
-    const comparedDistricts = this.state.comparedDistricts.filter( card => location !== card.location);
-
-    this.setState({ comparedDistricts });
+    foundDistrict.selected = true;
+    this.setState({ comparedDistricts: [...comparedDistricts, foundDistrict] });
   }
 
   render() {
@@ -85,8 +63,6 @@ class App extends Component {
         <section className="compare-container">
           <ComparedDistricts
             comparedDistricts={comparedDistricts}
-            addCardToCompare={this.addCardToCompare}
-            removeCardFromCompare={this.removeCardFromCompare}
           />
         </section>
         <aside className="sidebar">
@@ -95,8 +71,7 @@ class App extends Component {
           />
           <CardContainer
             districts={districts}
-            addCardToCompare={this.addCardToCompare}
-            removeCardFromCompare={this.removeCardFromCompare}
+            handleComparedDistrictsData={this.handleComparedDistrictsData}
           />
         </aside>
       </main>
