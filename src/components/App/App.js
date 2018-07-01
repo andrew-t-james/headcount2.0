@@ -65,7 +65,7 @@ class App extends Component {
       removedDistract.selected = false;
     }
 
-    foundDistrict.selected = true;
+    foundDistrict.selected = !foundDistrict.selected;
     this.setState({ comparedDistricts: [...comparedDistricts, foundDistrict] });
   }
 
