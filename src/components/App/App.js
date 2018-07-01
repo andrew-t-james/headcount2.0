@@ -43,10 +43,16 @@ class App extends Component {
     const { comparedDistricts, districts } = this.state;
     const foundDistrict = districts.find(district => district.location === districtName);
 
-    if (comparedDistricts.length > 1) {
+
+
+    if (comparedDistricts.indexOf(foundDistrict) > -1) {
+      comparedDistricts.splice(foundDistrict, 1);
+    } else if (comparedDistricts.length > 1) {
       const removedDistract = comparedDistricts.shift();
       removedDistract.selected = false;
     }
+
+    // console.log({district: foundDistrict, foundIt: comparedDistricts.indexOf(foundDistrict)});
 
     foundDistrict.selected = !foundDistrict.selected;
     this.setState({ comparedDistricts: [...comparedDistricts, foundDistrict] });

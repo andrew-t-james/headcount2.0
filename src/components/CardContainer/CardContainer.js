@@ -10,7 +10,7 @@ const CardContainer = ({ districts, handleComparedDistrictsData}) => {
     return (
       <Card
         {...district}
-        key={district.location}
+        key={district.id}
         handleComparedDistrictsData={handleComparedDistrictsData}
       />
     );
@@ -19,7 +19,9 @@ const CardContainer = ({ districts, handleComparedDistrictsData}) => {
   return (
     <div>
       { districtData &&
-        <div className="card-container">{districtData}</div>
+        <div className="card-container">
+          {districtData}
+        </div>
       }
       {
         !districtData.length &&

@@ -18,7 +18,7 @@ const ComparedDistricts = ({ comparedDistricts, handleComparedDistrictsData }) =
   // ];
 
   const displaySelectedCards = comparedDistricts.map(district =>
-    <article onClick={() => handleComparedDistrictsData(district.location, district.stats)} key={district.location}>
+    <article onClick={() => handleComparedDistrictsData(district.location, district.stats)} key={district.id}>
       <h2>{district.location}</h2>
       <p>{district.stats[2000]}</p>
     </article>

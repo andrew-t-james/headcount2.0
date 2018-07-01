@@ -15,7 +15,8 @@ describe('CardContainer test suite', () => {
         2003: 6,
         2004: 8,
         2005: 0
-      }
+      },
+      id: 1
     },
     {
       location:'The Sun',
@@ -24,7 +25,8 @@ describe('CardContainer test suite', () => {
         2007: 6,
         2004: 8,
         2009: 0
-      }
+      },
+      id: 2
     },
     {
       location:'Jupiter',
@@ -33,7 +35,8 @@ describe('CardContainer test suite', () => {
         2009: 6,
         2010: 8,
         2004: 0
-      }
+      },
+      id: 3
     }
   ];
 

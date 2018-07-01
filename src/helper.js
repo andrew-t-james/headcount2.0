@@ -21,7 +21,8 @@ export default class DistrictRepository {
             ...arrangedSchools[sanitizedLocation].stats,
             [school.TimeFrame]: roundedPercentage
           },
-          selected: false
+          selected: false,
+          id: Math.round(Math.random() * Date.now())
         };
       }
 
