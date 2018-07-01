@@ -30,7 +30,7 @@
     display: grid;
     grid-template-areas: "header header header header" "sidebar sidebar sidebar sidebar" "compare-container compare-container compare-container compare-container";
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 5rem 38rem 1fr;
+    grid-template-rows: 5rem 41rem 1fr;
     height: 100%;
   }
 
