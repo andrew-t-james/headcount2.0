@@ -2,10 +2,10 @@
 
 **HeadCount 2.0 is a project designed to challenge your skills at manipulating data and creating small, reusable React components.**
 
-##### Repo
+### Repo
 [Headcount-Repo](https://github.com/andrew-t-james/headcount2.0)
 
-#### Demo
+### Demo
 [Headcount-Demo](https://headcount-2.surge.sh/)
 
 ### Steps to run Application
