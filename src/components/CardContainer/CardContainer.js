@@ -5,7 +5,7 @@ import Card from '../Card/Card';
 import './CardContainer.css';
 
 
-const CardContainer = ({ districts, handleSelectedDistrict}) => {
+const CardContainer = ({ districts, handleSelectedDistrict }) => {
   const districtData = districts.map(district => {
     return (
       <Card
