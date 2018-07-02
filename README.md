@@ -6,7 +6,7 @@
 [Headcount-Repo](https://github.com/andrew-t-james/headcount2.0)
 
 #### Demo
-[Headcount-Demo](https://headcout-2.surge.sh)
+[Headcount-Demo](https://headcount-2.surge.sh/)
 
 ### Steps to run Application
 
