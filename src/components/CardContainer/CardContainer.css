@@ -5,6 +5,10 @@
   margin-top: 5rem;
 }
 
+.card-container-error-message {
+  text-align: center;
+}
+
 @media screen and (max-width: 1345px) {
   .card-container {
     margin-top: 4rem;

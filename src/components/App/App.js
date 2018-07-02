@@ -86,7 +86,7 @@ class App extends Component {
     return (
       <main className="grid-container">
         <header className="header">
-          <h1>HeadCount 2.0</h1>
+          <h1 className="header-title">HeadCount 2.0</h1>
         </header>
         <section className="compare-container">
           <ComparedDistricts

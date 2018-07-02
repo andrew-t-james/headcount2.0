@@ -26,7 +26,7 @@ const CardContainer = ({ districts, handleSelectedDistrict}) => {
       {
         !districtData.length &&
         <div className="card-container">
-          <h2>Oops No District by that name</h2>
+          <h2 className="card-container-error-message">Oops No District by that name</h2>
         </div>
       }
     </div>

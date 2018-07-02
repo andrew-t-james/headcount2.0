@@ -1,6 +1,5 @@
 .comparison-container {
   align-items: center;
-  border: 1px solid orchid;
   display: flex;
   height: calc(100vh - 7rem);
   justify-content: space-between;
@@ -9,6 +8,7 @@
 @media screen and (max-width: 1345px) {
   .comparison-container {
     flex-direction: column;
+    height: 100%;
     justify-content: space-around;
   }
 }

@@ -28,7 +28,9 @@ ShallowWrapper {
         <div
           className="card-container"
 >
-          <h2>
+          <h2
+                    className="card-container-error-message"
+          >
                     Oops No District by that name
           </h2>
 </div>,
@@ -53,7 +55,9 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <h2>
+          "children": <h2
+            className="card-container-error-message"
+>
             Oops No District by that name
 </h2>,
           "className": "card-container",
@@ -65,6 +69,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Oops No District by that name",
+            "className": "card-container-error-message",
           },
           "ref": null,
           "rendered": "Oops No District by that name",
@@ -90,7 +95,9 @@ ShallowWrapper {
           <div
             className="card-container"
 >
-            <h2>
+            <h2
+                        className="card-container-error-message"
+            >
                         Oops No District by that name
             </h2>
 </div>,
@@ -115,7 +122,9 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <h2>
+            "children": <h2
+              className="card-container-error-message"
+>
               Oops No District by that name
 </h2>,
             "className": "card-container",
@@ -127,6 +136,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Oops No District by that name",
+              "className": "card-container-error-message",
             },
             "ref": null,
             "rendered": "Oops No District by that name",

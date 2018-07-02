@@ -215,6 +215,7 @@ ShallowWrapper {
 >
         Please Add a District to Compare
 </h2>,
+      "className": "comparison-card",
     },
     "ref": null,
     "rendered": Object {
@@ -242,6 +243,7 @@ ShallowWrapper {
 >
           Please Add a District to Compare
 </h2>,
+        "className": "comparison-card",
       },
       "ref": null,
       "rendered": Object {
