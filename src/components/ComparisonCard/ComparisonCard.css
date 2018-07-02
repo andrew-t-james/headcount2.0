@@ -6,6 +6,11 @@
 @media screen and (max-width: 560px) {
   .comparison-card-message {
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1345px) {
+  .comparison-card-message {
     padding-top: 5rem;
   }
 }
