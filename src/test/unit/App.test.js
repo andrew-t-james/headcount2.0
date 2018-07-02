@@ -224,7 +224,7 @@ describe('App unit test suite', () => {
         {
           location: 'ACADEMY 20',
           selected: true,
-          id: 1,
+          id: 2,
           stats: {
             2004: 0.302,
             2005: 0.267
@@ -234,15 +234,14 @@ describe('App unit test suite', () => {
       comparedDistricts: [],
       comparisonData: {}
     });
-    const mockComparisonData ={
+    const mockComparisonData = {
       'ACADEMY 20': 0.407,
-      'COLORADO':0.53,
-      'compared':1.302
+      'COLORADO': 0.53,
+      'compared': 1.302
     };
     wrapper.instance().districtsComparison();
     expect(wrapper.state('comparisonData')).toEqual(mockComparisonData);
   });
-
 
   test('should call filterDistricts with a parameter', () => {
     const spy = jest.spyOn(wrapper.instance(), 'filterDistricts');
@@ -281,5 +280,4 @@ describe('App unit test suite', () => {
     wrapper.instance().filterDistricts('Colo');
     expect(wrapper).toMatchSnapshot();
   });
-
 });
