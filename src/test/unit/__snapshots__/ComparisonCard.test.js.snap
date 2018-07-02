@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GraphCard unit test suite should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ComparisonCard
+    ADAMS 20={0.294}
+    COLORADO={0.234}
+    compared={1.345}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          ADAMS 20
+           : 
+          0.294
+</h2>,
+        <h2>
+          Comparison : 
+          1.345
+</h2>,
+        <h2>
+          COLORADO
+           : 
+          0.234
+</h2>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "ADAMS 20",
+            " : ",
+            0.294,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "ADAMS 20",
+          " : ",
+          0.294,
+        ],
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Comparison : ",
+            1.345,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Comparison : ",
+          1.345,
+        ],
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "COLORADO",
+            " : ",
+            0.234,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "COLORADO",
+          " : ",
+          0.234,
+        ],
+        "type": "h2",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            ADAMS 20
+             : 
+            0.294
+</h2>,
+          <h2>
+            Comparison : 
+            1.345
+</h2>,
+          <h2>
+            COLORADO
+             : 
+            0.234
+</h2>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "ADAMS 20",
+              " : ",
+              0.294,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "ADAMS 20",
+            " : ",
+            0.294,
+          ],
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Comparison : ",
+              1.345,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Comparison : ",
+            1.345,
+          ],
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "COLORADO",
+              " : ",
+              0.234,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "COLORADO",
+            " : ",
+            0.234,
+          ],
+          "type": "h2",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
+
+exports[`GraphCard unit test suite should match snapshot when no data is passed 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ComparisonCard />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <h2
+        className="comparison-card-message"
+>
+        Please Add a District to Compare
+</h2>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Please Add a District to Compare",
+        "className": "comparison-card-message",
+      },
+      "ref": null,
+      "rendered": "Please Add a District to Compare",
+      "type": "h2",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <h2
+          className="comparison-card-message"
+>
+          Please Add a District to Compare
+</h2>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Please Add a District to Compare",
+          "className": "comparison-card-message",
+        },
+        "ref": null,
+        "rendered": "Please Add a District to Compare",
+        "type": "h2",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;

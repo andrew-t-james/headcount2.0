@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "chart.js": "2.7.2",
     "react": "^16.2.0",
+    "react-chartjs-2": "2.7.2",
     "react-dom": "^16.2.0"
   },
   "scripts": {
@@ -18,10 +20,10 @@
   "devDependencies": {
     "enzyme": "3.3.0",
     "enzyme-adapter-react-16": "1.1.1",
-    "eslint": "^5.0.1",
-    "eslint-plugin-jest": "^21.15.1",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.2.0",
+    "eslint": "5.0.1",
+    "eslint-plugin-jest": "21.15.1",
+    "husky": "0.14.3",
+    "lint-staged": "7.1.2",
     "react-scripts": "1.1.0"
   },
   "jest": {

@@ -25,3 +25,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
 }
+
+::-webkit-scrollbar {
+  background: transparent;  /* optional: just make scrollbar invisible */
+  width: 0px;  /* remove scrollbar space */
+}

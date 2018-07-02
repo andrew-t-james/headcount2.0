@@ -2,8 +2,9 @@
   background-color: #ffffff;
   height: 4rem;
   position: absolute;
+  right: 0;
   top: 7rem;
-  width: 37.8rem;
+  width: 25%;
 }
 
 .search-input {
@@ -16,4 +17,11 @@
   padding: 2rem;
   text-align: left;
   width: 100%;
+}
+
+@media screen and (max-width: 1345px) {
+  .search {
+    top: 5rem;
+    width: 100%;
+  }
 }

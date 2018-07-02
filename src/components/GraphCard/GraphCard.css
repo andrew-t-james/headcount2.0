@@ -1,0 +1,12 @@
+.graph-card {
+  max-height: 35rem;
+  padding: 2rem;
+  width: 40%;
+}
+
+
+@media screen and (max-width: 1345px) {
+  .graph-card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GraphCard unit test suite should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <GraphCard
+    location="COLORADO"
+    stats={
+        Object {
+            "2005": 0.353,
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          COLORADO
+</h2>,
+        <Bar
+          data={
+                    Object {
+                              "datasets": Array [
+                                Object {
+                                  "backgroundColor": Array [
+                                    "rgba(235, 77, 75, 0.4)",
+                                  ],
+                                  "borderColor": Array [
+                                    "rgba(235, 77, 75, 0.4)",
+                                  ],
+                                  "borderWidth": 1,
+                                  "data": Array [
+                                    0.353,
+                                  ],
+                                  "hoverBackgroundColor": Array [
+                                    "rgba(235, 77, 75, 0.4)",
+                                  ],
+                                  "hoverBorderColor": Array [
+                                    "rgba(235, 77, 75, 0.4)",
+                                  ],
+                                  "label": "COLORADO",
+                                },
+                              ],
+                              "labels": Array [
+                                "2005",
+                              ],
+                            }
+          }
+          options={
+                    Object {
+                              "legend": Object {
+                                "display": false,
+                              },
+                              "maintainAspectRatio": false,
+                              "responsive": true,
+                            }
+          }
+/>,
+      ],
+      "className": "graph-card",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "COLORADO",
+        },
+        "ref": null,
+        "rendered": "COLORADO",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "data": Object {
+            "datasets": Array [
+              Object {
+                "backgroundColor": Array [
+                  "rgba(235, 77, 75, 0.4)",
+                ],
+                "borderColor": Array [
+                  "rgba(235, 77, 75, 0.4)",
+                ],
+                "borderWidth": 1,
+                "data": Array [
+                  0.353,
+                ],
+                "hoverBackgroundColor": Array [
+                  "rgba(235, 77, 75, 0.4)",
+                ],
+                "hoverBorderColor": Array [
+                  "rgba(235, 77, 75, 0.4)",
+                ],
+                "label": "COLORADO",
+              },
+            ],
+            "labels": Array [
+              "2005",
+            ],
+          },
+          "options": Object {
+            "legend": Object {
+              "display": false,
+            },
+            "maintainAspectRatio": false,
+            "responsive": true,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            COLORADO
+</h2>,
+          <Bar
+            data={
+                        Object {
+                                    "datasets": Array [
+                                      Object {
+                                        "backgroundColor": Array [
+                                          "rgba(235, 77, 75, 0.4)",
+                                        ],
+                                        "borderColor": Array [
+                                          "rgba(235, 77, 75, 0.4)",
+                                        ],
+                                        "borderWidth": 1,
+                                        "data": Array [
+                                          0.353,
+                                        ],
+                                        "hoverBackgroundColor": Array [
+                                          "rgba(235, 77, 75, 0.4)",
+                                        ],
+                                        "hoverBorderColor": Array [
+                                          "rgba(235, 77, 75, 0.4)",
+                                        ],
+                                        "label": "COLORADO",
+                                      },
+                                    ],
+                                    "labels": Array [
+                                      "2005",
+                                    ],
+                                  }
+            }
+            options={
+                        Object {
+                                    "legend": Object {
+                                      "display": false,
+                                    },
+                                    "maintainAspectRatio": false,
+                                    "responsive": true,
+                                  }
+            }
+/>,
+        ],
+        "className": "graph-card",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "COLORADO",
+          },
+          "ref": null,
+          "rendered": "COLORADO",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "data": Object {
+              "datasets": Array [
+                Object {
+                  "backgroundColor": Array [
+                    "rgba(235, 77, 75, 0.4)",
+                  ],
+                  "borderColor": Array [
+                    "rgba(235, 77, 75, 0.4)",
+                  ],
+                  "borderWidth": 1,
+                  "data": Array [
+                    0.353,
+                  ],
+                  "hoverBackgroundColor": Array [
+                    "rgba(235, 77, 75, 0.4)",
+                  ],
+                  "hoverBorderColor": Array [
+                    "rgba(235, 77, 75, 0.4)",
+                  ],
+                  "label": "COLORADO",
+                },
+              ],
+              "labels": Array [
+                "2005",
+              ],
+            },
+            "options": Object {
+              "legend": Object {
+                "display": false,
+              },
+              "maintainAspectRatio": false,
+              "responsive": true,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;

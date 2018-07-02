@@ -20,7 +20,9 @@ export default class DistrictRepository {
           stats: {
             ...arrangedSchools[sanitizedLocation].stats,
             [school.TimeFrame]: roundedPercentage
-          }
+          },
+          selected: false,
+          id: Math.round(Math.random() * Date.now())
         };
       }
 
@@ -33,10 +35,11 @@ export default class DistrictRepository {
     if (searchCriteria) {
       const sanitizedLocation = searchCriteria.toUpperCase();
       if (this.stats[sanitizedLocation]) {
-        const { location, stats } = this.stats[sanitizedLocation];
+        const { location, stats, selected } = this.stats[sanitizedLocation];
         return {
           location,
-          stats
+          stats,
+          selected
         };
       }
     }
@@ -60,7 +63,7 @@ export default class DistrictRepository {
   findAverage(searchCriteria) {
     const sanitizedLocation = searchCriteria.toUpperCase();
     const statsValues = Object.values(this.stats[sanitizedLocation].stats);
-    const sum = statsValues.reduce((acc, value) => acc += value, 0);
+    const sum = statsValues.reduce((acc, value) => acc + value);
     const average = Math.round(1000 * (sum / statsValues.length)) / 1000;
     return average;
   }

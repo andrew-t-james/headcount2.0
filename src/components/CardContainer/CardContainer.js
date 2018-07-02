@@ -4,14 +4,14 @@ import Card from '../Card/Card';
 
 import './CardContainer.css';
 
-const CardContainer = ({ districts, handleComparedDistrictsData}) => {
 
+const CardContainer = ({ districts, handleSelectedDistrict}) => {
   const districtData = districts.map(district => {
     return (
       <Card
         {...district}
-        key={district.location}
-        handleComparedDistrictsData={handleComparedDistrictsData}
+        key={district.id}
+        handleSelectedDistrict={handleSelectedDistrict}
       />
     );
   });
@@ -19,11 +19,15 @@ const CardContainer = ({ districts, handleComparedDistrictsData}) => {
   return (
     <div>
       { districtData &&
-        <div className="card-container">{districtData}</div>
+        <div className="card-container">
+          {districtData}
+        </div>
       }
       {
         !districtData.length &&
-        <div className="card-container-error">Oops No District by that name</div>
+        <div className="card-container">
+          <h2>Oops No District by that name</h2>
+        </div>
       }
     </div>
   );
@@ -31,7 +35,7 @@ const CardContainer = ({ districts, handleComparedDistrictsData}) => {
 
 CardContainer.propTypes = {
   districts: PropTypes.arrayOf(PropTypes.object).isRequired,
-  handleComparedDistrictsData: PropTypes.func
+  handleSelectedDistrict: PropTypes.func
 };
 
 export default CardContainer;

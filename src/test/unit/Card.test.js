@@ -13,11 +13,21 @@ describe('Card unit test suite', () => {
       2005: 0
     }
   };
-
-  const wrapper = shallow(<Card {...mockDistrict} key={mockDistrict.location} />);
+  const handleSelectedDistrict = jest.fn();
+  const wrapper = shallow(
+    <Card
+      {...mockDistrict}
+      key={mockDistrict.location}
+      handleSelectedDistrict={handleSelectedDistrict}
+    />
+  );
 
   test('When Card is rendered it should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
+  it('calls handleSelectedDistrict when clicked', () => {
+    wrapper.find('.card').simulate('click');
+    expect(handleSelectedDistrict).toHaveBeenCalled();
+  });
 });
