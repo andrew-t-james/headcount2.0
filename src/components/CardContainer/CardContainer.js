@@ -18,7 +18,8 @@ const CardContainer = ({ districts, handleSelectedDistrict }) => {
 
   return (
     <div>
-      { districtData &&
+      {
+        districtData &&
         <div className="card-container">
           {districtData}
         </div>
